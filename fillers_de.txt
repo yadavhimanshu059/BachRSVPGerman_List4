@@ -1,0 +1,103 @@
+1			F			1			Level 1			0			Der Ball wurde durch das Fenster geworfen.			Der Ball wurde geworfen.			Die Büchse wurde geworfen.			Der Ball wurde durch die Tür geworfen.			Der Ball wurde aufgehoben.			
+
+2			F			1			Level 1			0			Die Frau ist in Frankreich angekommen.			Die Frau ist angekommen.			Der Mann ist angekommen.			Die Frau ist in Deutschland angekommen.			Die Frau ist abgefahren.			
+
+3			F			1			Level 1			0			Die Vase wurde mit Blumen gefüllt.			Die Vase wurde gefüllt.			Die Flasche wurde gefüllt.			Die Vase wurde mit Blättern gefüllt.			Die Vase wurde geleert.			
+
+4			F			1			Level 1			0			Der Keks wurde von dem Jungen gegessen.			Der Keks wurde gegessen.			Der Kuchen wurde gegessen.			Der Keks wurde vom Mädchen gegessen.			Der Keks wurde gebastelt.			
+
+5			F			1			Level 1			0			Der Bus wurde vom Schaffner gefahren.			Der Bus wurde gefahren.			Das Auto wurde gefahren.			Der Bus wurde vom Chauffer gefahren.			Der Bus wurde angehalten.			
+
+6			F			1			Level 1			0			Die Büchse wurde von einem Dieb gestohlen.			Die Büchse wurde gestohlen.			Das Papier wurde gestohlen.			Die Büchse wurde von der Polizei gestohlen.			Die Büchse wurde gefunden.			
+
+7			F			1			Level 1			0			Der Regenschirm wurde vom Wind weggeblasen.			Der Regenschirm wurde weggeblasen.			Das Hemd wurde weggeblasen.			Der Regenschirm wurde durch den Regen weggeblasen.			Der Regenschirm wurde aufgeholt.			
+
+8			F			1			Level 1			0			Die Regenschauer überfluteten das Dorf.			Das Dorf wurde überflutet.			Die Stadt wurde überflutet.			Die Regenschauer haben die Stadt überflutet.			Die Regenschauer beendeten die Dürre.			
+
+9			F			1			Level 1			0			Der Kuchen wurde von der alten Frau wunderschön glasiert.			Der Kuchen wurde glasiert.			Der Muffin wurde glasiert.			Der Kuchen wurde vom alten Mann glasiert.			Der Kuchen wurde gegessen.			
+
+10			F			1			Level 1			0			Der alte Koffer wurde von den Arbeitern aufgehoben.			Der alte Koffer wurde aufgehoben.			Der Tisch wurde aufgehoben.			Der alte Koffer wurde von den Nachbarn aufgehoben.			Der alte Koffer wurde begraben.			
+
+11			F			1			Level 1			0			Der Impfstoff wurde von den Wissenschaftlern entwickelt.			Der Impstoff wurde entwickelt.			Das Instrument wurde entwickelt.			Der Impstoff wurde vom Anfänger entwickelt.			Der Impstoff wurde verloren.			
+
+12			F			1			Level 1			0			Der Ballon wurde vom Spieß durchgestochen.			Der Ballon wurde durchgestochen.			Der Reifen wurde durchgestochen.			Der Ballon wurde vom Hammer durchgestochen.			Der Ballon wurde aufgeblasen.			
+
+13			F			2			Level 2			0			Diebe haben die Juwelen gestohlen und in Luxemburg verkauft.			Diebe haben Juwelen gestohlen.			Diebe haben Juwelen gebracht.			Diebe haben die Juwelen in New York verkauft.			Die Dieben wurden von den Juwelen gestohlen.			
+
+14			F			2			Level 2			0			Der Mann hat Geschenke gekauft und an die Kinder verteilt.			Der Mann hat die Geschenke an die Kinder verteilt.			Die Kinder haben die Geschenke gekauft.			Der Mann hat die Kinder gekauft.			Die Geschenke haben den Mann gekauft.			
+
+15			F			2			Level 2			0			Der Koch hat das Gericht gekocht und der Frau serviert.			Der Koch hat das Gericht gekocht.			Die Frau hat das Gericht gekocht.			Die Frau wurde von dem Koch gekocht.			Der Koch wurde vom Gericht gekocht.			
+
+16			F			2			Level 2			0			Judith und Peter haben ein Hotel gebucht und in New York geschlafen.			Judith und Peter schliefen in New York.			Judith und Peter haben New York gebucht.			Judith und Peter schliefen in Denver.			Judith und Peter wurden vom Hotel gebucht.			
+
+17			F			2			Level 2			0			Die Frau hat in_einem Lotto gewonnen und eine große Party geschmissen. 			Die Frau hat in einem Lotto gewonnen.			Die Frau hat eine Party gewonnen.			Die Frau hat eine kleine Party geschmissen.			Die Frau wurde von der Lotterie gewonnen.			
+
+18			F			2			Level 2			0			Der Polizist ging auf Patrouille und verjagte die Hooligans. 			Der Polizist hat die Hooligans verjagt.			Die Hooligans gingen auf Patrouille .			Die Hooligans haben den Polizisten verjagt.			Die Hooligans haben mit dem Polizisten gesprochen.			
+
+19			F			2			Level 2			0			Das Kind schlief die Nacht durch und träumte vom Weihnachtsmann. 			Das Kind schlief durch die Nacht.			Der Weihnachtsmann schlief durch die Nacht.			Der Weihnachtsmann träumte vom Kind.			Das Kind ist die ganze Nacht wachgeblieben.			
+
+20			F			2			Level 2			0			Der Professor verließ die Klasse und ging in die Kantine.			Der Professor ging in die Kantine.			Der Professor ging in die Klasse.			Der Professor hat die Kantine verlassen.			Der Professor hat das Hotel verlassen.			
+
+21			F			2			Level 2			0			Der Junge übte seinen Gitarrenunterricht und spielte beim Universitätskonzert. 			Der Junge übte die Gitarre.			Der Junge hat auf der Party gespielt.			Der Junge hat auf dem Konzert getanzt.			Der Junge wurde von der Gitarre geübt.			
+
+22			F			2			Level 2			0			Das Mädchen kümmerte sich um den Welpen und brachte ihn zum Tierarzt. 			Das Mädchen hat den Welpen zum Tierarzt gebracht.			Der Tierarzt kümmerte sich um den Welpen.			Der Tierarzt kümmerte sich um das Mädchen.			Der Welpe kümmerte sich um das Mädchen.			
+
+23			F			2			Level 2			0			Der Astronaut warf das Gerät, das defekt war, über_Bord.			Der Astronaut hat das Gerät über Bord geworfen.			Das Gerät war nicht defekt.			Der Astronaut hat das Gerät repariert.			Der Astronaut wurde vom Gerät über Bord geworfen.			
+
+24			F			2			Level 2			0			Isabel bestellte das Essen von einem Restaurant, das weltberühmt ist.			Das Restaurant war berühmt.			Isabel war weltberühmt.			Isabel hat im Restaurant gegessen.			Isabel wurde vom Essen bestellt.			
+
+25			F			3			Level 3			0			Die Zeitung meldet, dass die Einladung an dem Rennen teilzunehmen, von dem Weltmeister ausgeschlagen wurde.			Die Zeitung meldet die Einladung.			Der Weltmeister nahm an dem Rennen teil.			Die Einladung, am Seminar teilzunehmen, wurde gemeldet.			Die Zeitschrift meldet die Einladung.			
+
+26			F			3			Level 3			0			Linda sagte, dass der Nachbar von seinem Fahrrad fiel, als die Polizei zusah.			Der Nachbar fiel von seinem Fahrrad.			Die Polizei sagte, dass der Nachbar fiel.			Der Nachbar beobachtete die Polizei.			Die Polizei fiel vom Fahrrad.			
+
+27			F			3			Level 3			0			Die Kinder sehen, dass die Giraffe das Futter frisst, das von dem Pfleger aufgefüllt wurde.			Der Pfleger hat das Futter aufgefüllt.			Die Kinder haben das Futter aufgefüllt.			Der Pfleger hat die Giraffe gefressen.			Die Giraffe hat die Kinder gefressen.			
+
+28			F			3			Level 3			0			Der alte Mann träumte, dass das Flugzeug in seinem Hinterhof gelandet war, als er den Rasen mähte.			Der alte Mann träumte.			Der Mann träumte von einem Auto.			Das Flugzeug landete auf dem Mann.			Der Mann hat sein Auto gereinigt, während das Flugzeug landete.			
+
+29			F			3			Level 3			0			Der Hausmeister dachte, dass die Schüler sich unartig benahmen, weil die Schulleiterin das Gebäude verlassen hatte.			Die Schüler benahmen sich unartig.			Der Hausmeister hat das Gebäude verlassen.			Die Schüler dachten an den Hausmeister.			Die Schulleiterin benahm sich unartig.			
+
+30			F			3			Level 3			0			Der Arzt dachte, dass der Patient das Medikament, das nicht zur Einnahme bestimmt war, eingenommen hatte.			Der Arzt dachte, dass das Medikament nicht dazu gemeint war, eingenommen zu werden.			Der Arzt hat das Medikament eingenommen.			Der Patient dachte an das Medikament.			Der Arzt dachte an die Klinik.			
+
+31			F			3			Level 3			0			Der Präsident fragte sich, ob die Welt untergehen würde, wenn seine Amtszeit endete.			Der Präsident fragte sich, ob der Welt etwas geschehen werde.			Die Amtszeit des Präsidenten ist geendet.			Der Präsident fragte sich, ob seiner Amtszeit etwas geschehen werde.			Die Welt ist vor das Ende der Amtszeit vom Präsidenten untergegangen.			
+
+32			F			3			Level 3			0			Der Polizist stellte_klar, dass der Einbrecher, der das Haus geplündert hatte, in den frühen Morgenstunden gefasst worden_war.			Der Einbrecher hat das Haus geplündert.			Die Polizistin hat das Haus geplündert.			Der Einbrecher erklärte etwas bezüglich des Diebstahls.			Der Einbrecher ist am Abend gefasst worden.			
+
+33			F			3			Level 3			0			Der Zimmermann bestellte das Holz, von dem es gesagt wurde, dass es 100 Jahre zum Wachsen brauchte.			Das Holz braucht 100 Jahre zum Wachsen.			Der Zimmermann hat den Tisch bestellt.			Das Holz wächst schnell.			Das Holz wurde vom Zimmermann verkauft.			
+
+34			F			3			Level 3			0			Der Parteivorsitzende wies die Arbeiter_an, härter zu arbeiten, um die Wahlen wieder zu gewinnen.			Der Parteivorsitzende hat die Arbeiter angewiesen.			Die Arbeiter haben den Parteivorsitzenden angewiesen, härter zu arbeiten.			Die Anweisung lautete, die Wahlen zu verlieren.			Der Parteivorsitzende hat die Arbeiter angewiesen, im Lotto zu gewinnen.			
+
+35			F			3			Level 3			0			Der Autor dachte, dass der Mann, dem er letzte Woche vorgestellt wurde, eine Figur aus seinem früheren Buch sei.			Der Autor wurde letzte Woche einem Mann vorgestellt.			Der Mann dachte an den Autor.			Der Mann war eine Figur aus einem frühen Buch des Autors.			Der Mann wurde gestern dem Autor vorgestellt.			
+
+36			F			3			Level 3			0			Der DJ spielte die Musik, die von der Menge nicht erwartet wurde, die auf schnellere Songs hoffte.			Die Menge hoffte auf schnellere Songs vom DJ.			Die Menge hat die Musik gespielt.			Der DJ hat schnelle Musik gespielt.			Die Menge hat langsame Musik erwartet.			
+
+37			F			4			Double embedded			0			Der Zimmermann, der vorgestern den Handwerker, der am Samstag den Bauer trug, verletzte, begleitete den Lehrling in den Garten.			Der Zimmermann begleitete den Lehrling.			Der Lehrling begleitete den Zimmermann.			Der Handwerker verletzte den Zimmermann.			Der Bauer trug den Handwerker.			
+
+38			F			4			Double embedded			0			Die Mutter, die Freitag die Tochter, die dann die Schwester fand, erschreckte, begrüßte die Großmutter auf dem Dreirad.			Die Mutter erschreckte die Tochter.			Die Tochter erschreckte die Mutter.			Die Großmutter grüßte die Mutter.			Die Schwester fand die Tochter.			
+
+39			F			4			Double embedded			0			Der Arbeiter, der kürzlich den Mieter, der dann den Vorarbeiter suchte, verletzte, befragte den Schäfer im Büro.			Der Mieter suchte den Vorarbeiter.			Der Vorarbeiter suchte den Mieter.			Der Mieter verletzte den Arbeiter.			Der Schäfer befragte den Arbeiter.			
+
+40			F			4			Double embedded			0			Der Händler, der gerade den Geschäftsmann, der damals den Professor einstellte, verwirrte, ärgerte den Investor am Morgen.			Der Händler ärgerte den Investor.			Der Investor ärgerte den Händler.			Der Geschäftsmann verwirrte den Händler.			Der Professor stellte den Geschäftsmann ein.			
+
+41			F			4			Double embedded			0			Der Maler, der zuletzt den Musiker, der den Vater so lange vermisste, beschützte, kochte für den Künstler in der Küche.			Der Maler beschützte den Musiker.			Der Musiker beschützte den Maler.			Der Künstler kochte für den Maler.			Der Vater vermisste den Musiker.			
+
+42			F			4			Double embedded			0			Der Saxophonist, der am Sontag den Trompeter, der immer den Dirigenten mitbrachte, ablenkte, dankte dem Geiger in einer Rede.			Der Trompeter brachte den Dirigenten mit.			Der Dirigent brachte den Trompeter mit.			Der Trompeter lenkte den Saxophonisten ab.			Der Geiger dankte dem Saxophonisten.			
+
+43			F			4			Double embedded			0			Der Apotheker, der am Mittwoch den Optiker, der gestern den Fremden sah, alarmierte, befragte den Kunden an der Theke.			Der Apotheker befragte den Kunden.			Der Kunde befragte den Apotheker.			Der Optiker alarmierte den Apotheker.			Der Fremde sah den Optiker.			
+
+44			F			4			Double embedded			0			Der Reiniger, der heute Morgen den Hausmeister, der schnell den Arzt erkannte, verletzte, überraschte den Patienten im Flur.			Der Reiniger verletzte den Hausmeister.			Der Hausmeister verletzte den Reiniger.			Der Patient überraschte den Reiniger.			Der Arzt erkannte den Hausmeister.			
+
+45			F			4			Double embedded			0			Der Tänzer, der gestern den Sänger, der zuletzt den Zuschauer bewunderte, verletzte, belohnte den Türsteher mit einem Zehner.			Der Sänger bewunderte den Zuschauer.			Der Zuschauer bewunderte den Sänger.			Der Sänger verletzte den Tänzer.			Der Türsteher belohnte den Tänzer.			
+
+46			F			4			Double embedded			0			Der Künstler, der heute Morgen den Sportler, der manchmal die Wache rief, irritierte, unterrichtete den Nachrichtensprecher im Studio.			Der Künstler unterrichtete den Nachrichtensprecher.			Der Nachrichtensprecher unterrichtete den Künstler.			Der Sportler irritierte den Künstler.			Die Wache rief den Sportler.			
+
+47			F			4			Double embedded			0			Der Angestellte, der gestern dem Beamten, der den Besucher manchmal vergaß, half, ärgerte den Nachbarn im Rathaus.			Der Angestellte half dem Beamten.			Der Beamte half dem Angestellten.			Der Nachbar irritierte den Angestellten.			Der Besucher vergaß den Beamten.			
+
+48			F			4			Double embedded			0			Der Sohn, der kürzlich den Vater, der den Lehrer oft sah, störte, besuchte den Großvater im Altenheim.			Der Vater sah den Lehrer.			Der Lehrer sah den Vater.			Der Vater störte den Sohn.			Der Großvater besuchte den Sohn.			
+
+49			F			4			Double embedded			0			Der Zugführer, der heute_Morgen den Dirigenten, der den Arbeiter immer ignorierte, schlug, kritisierte den Musiker auf dem Festival.			Der Zugführer kritisierte den Musiker.			Der Musiker kritisierte den Zugführer.			Der Dirigent schlug den Zugführer.			Der Arbeiter ignorierte den Dirigenten.			
+
+50			F			4			Double embedded			0			Die Verteidigung, die heute Nachmittag den Staatsanwalt, der den Spion kurz anschaute, überraschte, überzeugte den Richter im Gerichtssaal.			Die Verteidigung überraschte den Staatsanwalt.			Der Staatsanwalt überraschte die Verteidigung.			Der Richter überzeugte die Verteidigung.			Der Spion schaute den Staatsanwalt an.			
+
+51			F			4			Double embedded			0			Der Cousin, der vor_zwei_Tagen die Schwester, die den Bauern einmal ausführlich beschrieb, glücklich machte, hasste den Onkel nach dem Familienstreit.			Die Schwester beschrieb den Bauer.			Der Bauer beschrieb die Schwester.			Die Schwester machte den Cousin glücklich.			Der Onkel hasste den Cousin.			
+
+52			F			4			Double embedded			0			Der Maler, der damals den Musiker, der einmal einen Freund schlug, störte, bewunderte den Dichter auf dem Dichterfest.			Der Maler bewunderte den Dichter.			Der Dichter bewunderte den Maler.			Der Musiker störte den Maler.			Der Freund schlug den Musiker.			

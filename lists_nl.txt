@@ -1,0 +1,191 @@
+1			a			2			no			1			Timo heeft de atleet de marathon zien lopen.			De atleet heeft de marathon gelopen.			De atleet heeft de marathon gezien.			De atleet heeft Timo gezien.			Timo heeft de marathon gelopen.			
+
+1			b			2			yes			2			Timo heeft gezien dat de atleet de marathon liep.			De atleet heeft de marathon gelopen.			De atleet heeft de marathon gezien.			De atleet heeft Timo gezien.			Timo heeft de marathon gelopen.			
+
+1			c			3			no			3			De verrekijker heeft Timo de atleet de marathon helpen zien lopen.			De atleet heeft de marathon gelopen.			De atleet heeft de marathon gezien.			De atleet heeft Timo gezien.			Timo heeft de marathon gelopen.			
+
+1			d			3			yes			4			De verrekijker heeft Timo geholpen om te zien dat de atleet de marathon liep.			De atleet heeft de marathon gelopen.			De atleet heeft de marathon gezien.			De atleet heeft Timo gezien.			Timo heeft de marathon gelopen.			
+
+2			a			2			no			4			De kinderen hebben Anna de koeien zien melken.			De kinderen hebben Anna gezien.			De kinderen hebben de koeien gezien.			De kinderen hebben de koeien gemolken.			Anna heeft de kinderen gezien.			
+
+2			b			2			yes			1			De kinderen hebben gezien dat Anna de koeien melkt.			De kinderen hebben Anna gezien.			De kinderen hebben de koeien gezien.			De kinderen hebben de koeien gemolken.			Anna heeft de kinderen gezien.			
+
+2			c			3			no			2			Hans heeft de kinderen Anna de koeien laten zien melken.			De kinderen hebben Anna gezien.			De kinderen hebben de koeien gezien.			De kinderen hebben de koeien gemolken.			Anna heeft de kinderen gezien.			
+
+2			d			3			yes			3			Hans heeft de kinderen toegestaan om te zien dat Anna de koeien melkt.			De kinderen hebben Anna gezien.			De kinderen hebben de koeien gezien.			De kinderen hebben de koeien gemolken.			Anna heeft de kinderen gezien.			
+
+3			a			2			no			3			Ahmed heeft de bijen honing zien maken.			De bijen hebben de honing gemaakt.			De bijen hebben Ahmed gezien.			De bijen hebben de honing gezien.			Ahmed heeft de honing gemaakt.			
+
+3			b			2			yes			4			Ahmed heeft gezien dat de bijen honing maken.			De bijen hebben de honing gemaakt.			De bijen hebben Ahmed gezien.			De bijen hebben de honing gezien.			Ahmed heeft de honing gemaakt.			
+
+3			c			3			no			1			De imker heeft Ahmed de bijen honing leren zien maken.			De imker heeft Ahmed iets geleerd.			De imker heeft de honing gezien.			De imker heeft de bijen gezien.			Ahmed heeft de imker iets geleerd.			
+
+3			d			3			yes			2			De imker heeft Ahmed geleerd te zien dat de bijen honing maken.			De imker heeft Ahmed iets geleerd.			De imker heeft de honing gezien.			De imker heeft de bijen gezien.			Ahmed heeft de imker iets geleerd.			
+
+4			a			2			no			2			De prins heeft de ridders de vesting zien veroveren.			De prins heeft de ridders gezien.			De prins heeft de vesting gezien.			De prins heeft de vesting veroverd.			De ridders hebben de prins gezien.			
+
+4			b			2			yes			3			De prins heeft gezien hoe de ridders de vesting veroverden.			De prins heeft de ridders gezien.			De prins heeft de vesting gezien.			De prins heeft de vesting veroverd.			De ridders hebben de prins gezien.			
+
+4			c			3			no			4			De blinde tovenaar heeft de prins de ridders de vesting horen zien veroveren.			De ridders hebben de vesting veroverd.			De ridders hebben de vesting gezien.			De ridders hebben de prins gezien.			De prins heeft de vesting veroverd.			
+
+4			d			3			yes			1			De blinde tovenaar heeft gehoord hoe de prins zag hoe de ridders de vesting veroverden.			De ridders hebben de vesting veroverd.			De ridders hebben de vesting gezien.			De ridders hebben de prins gezien.			De prins heeft de vesting veroverd.			
+
+5			a			2			no			1			De lerares heeft Felix de knikkers helpen opruimen.			Felix heeft de knikkers opgeruimd.			De knikkers hebben Felix geholpen.			Felix heeft de lerares geholpen.			De lerares heeft de knikkers opgeruimd.			
+
+5			b			2			yes			2			De lerares heeft Felix geholpen de knikkers op_te_ruimen.			Felix heeft de knikkers opgeruimd.			De knikkers hebben Felix geholpen.			Felix heeft de lerares geholpen.			De lerares heeft de knikkers opgeruimd.			
+
+5			c			3			no			3			Armin heeft de lerares Felix de knikkers laten helpen opruimen.			De lerares heeft Felix geholpen.			De knikkers hebben lerares geholpen.			De lerares heeft de knikkers opgeruimd.			Felix heeft de lerares geholpen.			
+
+5			d			3			yes			4			Armin heeft de lerares ertoe gebracht Felix met_het opruimen van_de knikkers te helpen.			De lerares heeft Felix geholpen.			De knikkers hebben lerares geholpen.			De lerares heeft de knikkers opgeruimd.			Felix heeft de lerares geholpen.			
+
+6			a			2			no			4			Het kind heeft Sophie het boek helpen lezen.			Het kind heeft Sophie geholpen.			Het boek heeft het kind geholpen.			Het kind heeft het boek gelezen.			Sophie heeft het kind geholpen.			
+
+6			b			2			yes			1			Het kind heeft Sophie geholpen het boek te lezen.			Het kind heeft Sophie geholpen.			Het boek heeft het kind geholpen.			Het kind heeft het boek gelezen.			Sophie heeft het kind geholpen.			
+
+6			c			3			no			2			De buren hebben het kind Sophie het boek horen helpen lezen.			De buren hebben het kind gehoord.			De buren hebben Sophie gehoord.			De buren hebben Sophie geholpen.			Het kind heeft de buren geholpen.			
+
+6			d			3			yes			3			De buren hebben gehoord dat het kind Sophie met_het lezen van_het boek hielp.			De buren hebben het kind gehoord.			De buren hebben Sophie gehoord.			De buren hebben Sophie geholpen.			Het kind heeft de buren geholpen.			
+
+7			a			2			no			3			De schoonmaker heeft Bob de was helpen opvouwen.			Bob heeft de was opgevouwen.			Bob heeft de was geholpen.			Bob heeft de schoonmaker geholpen.			De schoonmaker heeft de was opgevouwen.			
+
+7			b			2			yes			4			De schoonmaker heeft Bob geholpen de was op_te vouwen.			Bob heeft de was opgevouwen.			Bob heeft de was geholpen.			Bob heeft de schoonmaker geholpen.			De schoonmaker heeft de was opgevouwen.			
+
+7			c			3			no			1			De postbode heeft de schoonmaker Bob de was zien helpen opvouwen.			Bob heeft de was opgevouwen.			Bob heeft de was geholpen.			Bob heeft de schoonmaker geholpen.			De schoonmaker heeft de was opgevouwen.			
+
+7			d			3			yes			2			De postbode heeft gezien dat de schoonmaker Bob hielp de was op_te vouwen.			Bob heeft de was opgevouwen.			Bob heeft de was geholpen.			Bob heeft de schoonmaker geholpen.			De schoonmaker heeft de was opgevouwen.			
+
+8			a			2			no			2			De vader heeft Claudia de auto helpen repareren.			De vader heeft Claudia geholpen.			De auto heeft de vader geholpen.			De vader heeft de auto gerepareerd.			Claudia heeft de vader geholpen.			
+
+8			b			2			yes			3			De vader heeft Claudia geholpen de auto te repareren.			De vader heeft Claudia geholpen.			De auto heeft de vader geholpen.			De vader heeft de auto gerepareerd.			Claudia heeft de vader geholpen.			
+
+8			c			3			no			4			De klusjesman heeft de vader Claudia de auto leren helpen repareren.			De vader heeft Claudia geholpen.			De auto heeft de vader geholpen.			De vader heeft de auto gerepareerd.			Claudia heeft de vader geholpen.			
+
+8			d			3			yes			1			De klusjesman heeft de vader geleerd Claudia met_het repareren van_de auto te helpen.			De vader heeft Claudia geholpen.			De auto heeft de vader geholpen.			De vader heeft de auto gerepareerd.			Claudia heeft de vader geholpen.			
+
+9			a			2			no			1			De vakbondsleider heeft de baas de werknemer horen uitschelden.			De baas heeft de werknemer uitgescholden.			De baas heeft de werknemer gehoord.			De baas heeft de vakbondsleider gehoord.			De vakbondsleider heeft de werknemer uitgescholden.			
+
+9			b			2			yes			2			De vakbondsleider heeft gehoord hoe de baas de werknemer uitschold.			De baas heeft de werknemer uitgescholden.			De baas heeft de werknemer gehoord.			De baas heeft de vakbondsleider gehoord.			De vakbondsleider heeft de werknemer uitgescholden.			
+
+9			c			3			no			3			De waarnemer heeft de vakbondsleider de baas de werknemer zien horen uitschelden.			De waarnemer heeft de vakbondsleider gezien.			De waarnemer heeft de baas gezien.			De waarnemer heeft de baas gehoord.			De vakbondsleider heeft de waarnemer gezien.			
+
+9			d			3			yes			4			De waarnemer heeft gezien dat de vakbondsleider hoorde hoe de baas de werknemer uitschold.			De waarnemer heeft de vakbondsleider gezien.			De waarnemer heeft de baas gezien.			De waarnemer heeft de baas gehoord.			De vakbondsleider heeft de waarnemer gezien.			
+
+10			a			2			no			4			De spion heeft de diplomate het geheim horen bespreken.			De spion heeft de diplomate gehoord.			De spion heeft het geheim gehoord.			De spion heeft het geheim besproken.			De diplomate heeft de spion gehoord.			
+
+10			b			2			yes			1			De spion heeft gehoord dat de diplomate het geheim bespreekt.			De spion heeft de diplomate gehoord.			De spion heeft het geheim gehoord.			De spion heeft het geheim besproken.			De diplomate heeft de spion gehoord.			
+
+10			c			3			no			2			De hacker heeft de spion de diplomate het geheim leren horen bespreken.			De diplomate heeft het geheim besproken.			De diplomate heeft het geheim gehoord.			De diplomate heeft de spion gehoord.			De spion heeft het geheim besproken.			
+
+10			d			3			yes			3			De hacker heeft de spion geleerd te horen hoe de diplomate het geheim bespreekt.			De diplomate heeft het geheim besproken.			De diplomate heeft het geheim gehoord.			De diplomate heeft de spion gehoord.			De spion heeft het geheim besproken.			
+
+11			a			2			no			3			Patricia heeft de kinderen de bloemen horen plukken.			De kinderen hebben de bloemen geplukt.			De kinderen hebben de bloemen gehoord.			De kinderen hebben Patricia gehoord.			Patricia heeft de bloemen geplukt.			
+
+11			b			2			yes			4			Patricia heeft gehoord dat de kinderen de bloemen plukken.			De kinderen hebben de bloemen geplukt.			De kinderen hebben de bloemen gehoord.			De kinderen hebben Patricia gehoord.			Patricia heeft de bloemen geplukt.			
+
+11			c			3			no			1			De oorarts heeft Patricia de kinderen de bloemen helpen horen plukken.			Patricia heeft de kinderen gehoord.			Patricia heeft de bloemen gehoord.			Patricia heeft de bloemen geplukt.			De kinderen hebben Patricia gehoord.			
+
+11			d			3			yes			2			De oorarts heeft Patricia geholpen te horen dat de kinderen de bloemen plukken.			Patricia heeft de kinderen gehoord.			Patricia heeft de bloemen gehoord.			Patricia heeft de bloemen geplukt.			De kinderen hebben Patricia gehoord.			
+
+12			a			2			no			4			De advocaat heeft de getuige de beschuldiging horen ontkennen.			De advocaat heeft de getuige gehoord.			De advocaat heeft de beschuldiging gehoord.			De advocaat heeft de beschuldiging ontkend.			De getuige heeft de advocaat gehoord.			
+
+12			b			2			yes			1			De advocaat heeft gehoord dat de getuige de beschuldiging ontkende.			De advocaat heeft de getuige gehoord.			De advocaat heeft de beschuldiging gehoord.			De advocaat heeft de beschuldiging ontkend.			De getuige heeft de advocaat gehoord.			
+
+12			c			3			no			2			De rechter heeft de advocaat de getuige de beschuldiging laten horen ontkennen.			De rechter heeft de advocaat de getuige laten horen.			De rechter heeft de getuige de beschuldiging laten horen.			De rechter heeft de getuige gehoord.			De advocaat heeft de rechter de getuige laten horen.			Replace 3rd N by "something"?
+
+12			d			3			yes			3			De rechter liet de advocaat horen dat de getuige de beschuldiging ontkende.			De rechter heeft de advocaat de getuige laten horen.			De rechter heeft de getuige de beschuldiging laten horen.			De rechter heeft de getuige gehoord.			De advocaat heeft de rechter de getuige laten horen.			Replace 3rd N by "something"?
+
+13			a			2			no			1			Hans heeft de mannen de paarden leren voeren.			De mannen hebben de paarden gevoerd.			De mannen hebben de paarden iets geleerd.			De mannen hebben Hans iets geleerd.			Hans heeft de paarden gevoerd.			
+
+13			b			2			yes			2			Hans heeft de mannen geleerd de paarden te voeren.			De mannen hebben de paarden gevoerd.			De mannen hebben de paarden iets geleerd.			De mannen hebben Hans iets geleerd.			Hans heeft de paarden gevoerd.			
+
+13			c			3			no			3			Johanna heeft Hans de mannen de paarden helpen leren voeren.			De mannen hebben de paarden gevoerd.			De mannen hebben de paarden iets geleerd.			De mannen hebben Hans iets geleerd.			Hans heeft de paarden gevoerd.			
+
+13			d			3			yes			4			Johanna heeft Hans geholpen de mannen te leren de paarden te voeren.			De mannen hebben de paarden gevoerd.			De mannen hebben de paarden iets geleerd.			De mannen hebben Hans iets geleerd.			Hans heeft de paarden gevoerd.			
+
+14			a			2			no			4			De lerares heeft de scholier de brief leren schrijven.			De lerares heeft de scholier iets geleerd.			De brief heeft de scholier iets geleerd.			De lerares heeft de brief geschreven.			De scholier heeft de lerares iets geleerd.			
+
+14			b			2			yes			1			De lerares heeft de scholier geleerd de brief te schrijven.			De lerares heeft de scholier iets geleerd.			De brief heeft de scholier iets geleerd.			De lerares heeft de brief geschreven.			De scholier heeft de lerares iets geleerd.			
+
+14			c			3			no			2			Het schoolhoofd heeft de lerares de scholier de brief laten leren schrijven.			De lerares heeft de scholier iets geleerd.			De brief heeft de scholier iets geleerd.			De lerares heeft de brief geschreven.			De scholier heeft de lerares iets geleerd.			
+
+14			d			3			yes			3			Het schoolhoofd heeft de lerares toegelaten de scholier te leren de brief te schrijven.			De lerares heeft de scholier iets geleerd.			De brief heeft de scholier iets geleerd.			De lerares heeft de brief geschreven.			De scholier heeft de lerares iets geleerd.			
+
+15			a			2			no			3			De pastoor heeft de leek het gebed leren opzeggen.			De leek heeft het gebed opgezegd.			De leek heeft het gebed geleerd.			De leek heeft de pastoor iets geleerd.			De pastoor heeft het gebed opgezegd.			
+
+15			b			2			yes			4			De pastoor heeft de leek geleerd het gebed op te_zeggen.			De leek heeft het gebed opgezegd.			De leek heeft het gebed geleerd.			De leek heeft de pastoor iets geleerd.			De pastoor heeft het gebed opgezegd.			
+
+15			c			3			no			1			De vrouw heeft de pastoor de leek het gebed horen leren opzeggen.			De vrouw heeft de pastoor gehoord.			De vrouw heeft de leek gehoord.			De vrouw heeft de leek iets geleerd.			De pastoor heeft de vrouw gehoord.			
+
+15			d			3			yes			2			De vrouw heeft gehoord dat de pastoor de leek leerde het gebed op te_zeggen.			De vrouw heeft de pastoor gehoord.			De vrouw heeft de leek gehoord.			De vrouw heeft de leek iets geleerd.			De pastoor heeft de vrouw gehoord.			
+
+16			a			2			no			4			De bakker heeft de leerling het brood leren bakken.			De bakker heeft de leerling iets geleerd.			De bakker heeft de leerling gebakken.			De bakker heeft het brood gebakken.			De leerling heeft de bakker iets geleerd.			
+
+16			b			2			yes			1			De bakker heeft de leerling geleerd het brood te bakken.			De bakker heeft de leerling iets geleerd.			De bakker heeft de leerling gebakken.			De bakker heeft het brood gebakken.			De leerling heeft de bakker iets geleerd.			
+
+16			c			3			no			2			De klant heeft de bakker de leerling het brood zien leren bakken.			De leerling heeft het brood gebakken.			De bakker heeft de leerling gebakken.			De leerling heeft de bakker iets geleerd.			De bakker heeft het brood gebakken.			
+
+16			d			3			yes			3			De klant heeft gezien hoe de bakker de leerling leerde het brood te bakken.			De leerling heeft het brood gebakken.			De bakker heeft de leerling gebakken.			De leerling heeft de bakker iets geleerd.			De bakker heeft het brood gebakken.			
+
+17			a			2			no			1			De waarzegger heeft de dief het geld voelen stelen.			De dief heeft het geld gestolen.			De dief heeft het geld gevoeld.			De dief heeft de waarzegger gevoeld.			De waarzegger heeft het geld gestolen.			
+
+17			b			2			yes			2			De waarzegger heeft gevoeld dat de dief het geld steelt.			De dief heeft het geld gestolen.			De dief heeft het geld gevoeld.			De dief heeft de waarzegger gevoeld.			De waarzegger heeft het geld gestolen.			
+
+17			c			3			no			3			De goeroe heeft de waarzegger de dief het geld leren voelen stelen.			De waarzegger heeft de dief gevoeld.			De waarzegger heeft het geld gevoeld.			De waarzegger heeft het geld gestolen.			De dief heeft de waarzegger gevoeld.			
+
+17			d			3			yes			4			De goeroe heeft de waarzegger geleerd te voelen hoe de dief het geld steelt.			De waarzegger heeft de dief gevoeld.			De waarzegger heeft het geld gevoeld.			De waarzegger heeft het geld gestolen.			De dief heeft de waarzegger gevoeld.			
+
+18			a			2			no			4			De hond heeft de aardbeving de tafel voelen schudden.			De hond heeft de aardbeving gevoeld.			De hond heeft de tafel gevoeld.			De hond heeft de tafel geschud.			De aardbeving heeft de hond geschud.			
+
+18			b			2			yes			1			De hond heeft gevoeld hoe de aardbeving de tafel schudde.			De hond heeft de aardbeving gevoeld.			De hond heeft de tafel gevoeld.			De hond heeft de tafel geschud.			De aardbeving heeft de hond geschud.			
+
+18			c			3			no			2			De hondeigenaar heeft de hond de aardbeving de tafel zien voelen schudden.			De hondeigenaar heeft de hond gezien.			De hondeigenaar heeft de aardbeving gezien.			De hondeigenaar heeft de aardbeving gevoeld.			De hond heeft de hondeigenaar gezien.			
+
+18			d			3			yes			3			De hondeigenaar heeft gezien dat de hond voelde hoe de aardbeving de tafel schudde.			De hondeigenaar heeft de hond gezien.			De hondeigenaar heeft de aardbeving gezien.			De hondeigenaar heeft de aardbeving gevoeld.			De hond heeft de hondeigenaar gezien.			
+
+19			a			2			no			3			Het meisje heeft de veren haar buik voelen kietelen.			De veren hebben de buik gekieteld.			De buik heeft de veren gevoeld.			De veren hebben het meisje gevoeld.			Het meisje heeft haar buik gekieteld.			
+
+19			b			2			yes			4			Het meisje heeft gevoeld hoe de veren haar buik kietelden.			De veren hebben de buik gekieteld.			De buik heeft de veren gevoeld.			De veren hebben het meisje gevoeld.			Het meisje heeft haar buik gekieteld.			
+
+19			c			3			no			1			De vader heeft het meisje de veren haar buik laten voelen kietelen.			De veren hebben de buik gekieteld.			De buik heeft de veren gevoeld.			De veren hebben het meisje gevoeld.			Het meisje heeft haar buik gekieteld.			
+
+19			d			3			yes			2			De vader heeft toegelaten dat het meisje voelde hoe de veren haar buik kietelden.			De veren hebben de buik gekieteld.			De buik heeft de veren gevoeld.			De veren hebben het meisje gevoeld.			Het meisje heeft haar buik gekieteld.			
+
+20			a			2			no			4			Julius heeft de grassprietjes zijn tenen voelen aanraken.			Julius heeft de grassprietjes gevoeld.			Julius heeft zijn tenen gevoeld.			Julius heeft zijn tenen aangeraakt.			Julius heeft de grassprietjes aangeraakt.			
+
+20			b			2			yes			1			Julius heeft gevoeld hoe de grassprietjes zijn tenen aanraakten.			Julius heeft de grassprietjes gevoeld.			Julius heeft zijn tenen gevoeld.			Julius heeft zijn tenen aangeraakt.			Julius heeft de grassprietjes aangeraakt.			
+
+20			c			3			no			2			Het medicijn heeft Julius de grassprietjes zijn tenen helpen voelen aanraken.			Julius heeft de grassprietjes gevoeld.			Julius heeft zijn tenen gevoeld.			Julius heeft zijn tenen aangeraakt.			Julius heeft de grassprietjes aangeraakt.			
+
+20			d			3			yes			3			Het medicijn heeft Julius geholpen te voelen hoe de grassprietjes zijn tenen aanraakten.			Julius heeft de grassprietjes gevoeld.			Julius heeft zijn tenen gevoeld.			Julius heeft zijn tenen aangeraakt.			Julius heeft de grassprietjes aangeraakt.			
+
+21			a			2			no			1			De wetenschapper heeft de student het raadsel laten oplossen.			De student heeft het raadsel opgelost.			De student heeft het raadsel zichzelf laten oplossen.			De student heeft de wetenschapper het raadsel laten oplossen.			De wetenschapper heeft het raadsel opgelost.			replace 3rd N by "something"?
+
+21			b			2			yes			2			De wetenschapper heeft de student toegelaten het raadsel op_te lossen.			De student heeft het raadsel opgelost.			De student heeft het raadsel zichzelf laten oplossen.			De student heeft de wetenschapper het raadsel laten oplossen.			De wetenschapper heeft het raadsel opgelost.			
+
+21			c			3			no			3			Dr. Jansen heeft de wetenschapper de student het raadsel zien laten oplossen.			Dr. Jansen heeft de wetenschapper gezien.			Dr. Jansen heeft de student gezien.			Dr. Jansen heeft de student het raadsel laten oplossen.			De wetenschapper heeft dr. Jansen gezien.			
+
+21			d			3			yes			4			Dr. Jansen heeft gezien dat de wetenschapper de student toeliet het raadsel op_te lossen.			Dr. Jansen heeft de wetenschapper gezien.			Dr. Jansen heeft de student gezien.			Dr. Jansen heeft de student het raadsel laten oplossen.			De wetenschapper heeft dr. Jansen gezien.			
+
+22			a			2			no			4			Hans heeft de hond de appel laten eten.			Hans heeft de hond laten eten.			De hond heeft Hans laten eten.			Hans heeft de appel gegeten.			De hond heeft Hans gegeten.			**essen/fressen
+
+22			b			2			yes			1			Hans heeft de hond toegestaan de appel te eten.			Hans heeft de hond laten eten.			De hond heeft Hans laten eten.			Hans heeft de appel gegeten.			De hond heeft Hans gegeten.			
+
+22			c			3			no			2			De moeder heeft Hans de hond de appel helpen laten eten.			De hond heeft de appel gegeten.			De hond heeft Hans laten eten.			De hond heeft Hans laten eten.			Hans heeft de appel gegeten.			
+
+22			d			3			yes			3			De moeder heeft Hans geholpen de hond toe te_staan de appel te eten.			De hond heeft de appel gegeten.			De hond heeft Hans laten eten.			De hond heeft Hans laten eten.			Hans heeft de appel gegeten.			
+
+23			a			2			no			3			De vrouw heeft de jongen het raam laten openen.			De jongen heeft het raam geopend.			De jongen heeft het raam open gelaten.			De jongen heeft de vrouw het raam laten openen.			De vrouw heeft het raam geopend.			
+
+23			b			2			yes			4			De vrouw heeft de jongen toegelaten het raam te openen.			De jongen heeft het raam geopend.			De jongen heeft het raam open gelaten.			De jongen heeft de vrouw het raam laten openen.			De vrouw heeft het raam geopend.			
+
+23			c			3			no			1			De man heeft de vrouw de jongen het raam horen laten openen.			De vrouw heeft de jongen het raam laten openen.			De vrouw heeft het raam open gelaten.			De vrouw heeft het raam geopend.			De jongen heeft de vrouw het raam laten openen.			replace 3rd N by "something"?
+
+23			d			3			yes			2			De man heeft gehoord dat de vrouw de jongen toeliet het raam te openen.			De vrouw heeft de jongen het raam laten openen.			De vrouw heeft het raam open gelaten.			De vrouw heeft het raam geopend.			De jongen heeft de vrouw het raam laten openen.			
+
+24			a			2			no			4			De pilote heeft de computer het vliegtuig laten besturen.			De pilote heeft de computer het vliegtuig laten besturen.			De pilote heeft het vliegtuig zichzelf laten besturen.			De pilote heeft het vliegtuig bestuurd.			De computer heeft de pilote het vliegtuig laten besturen.			replace 3rd N by "something"?
+
+24			b			2			yes			1			De pilote heeft de computer toegestaan het vliegtuig te besturen.			De pilote heeft de computer het vliegtuig laten besturen.			De pilote heeft het vliegtuig zichzelf laten besturen.			De pilote heeft het vliegtuig bestuurd.			De computer heeft de pilote het vliegtuig laten besturen.			
+
+24			c			3			no			2			De instructeur heeft de pilote de computer het vliegtuig leren laten besturen.			De instructeur heeft de pilote iets geleerd.			De instructeur heeft de computer iets geleerd.			De instructeur heeft de computer het vliegtuig laten besturen.			De pilote heeft de instructeur iets geleerd.			
+
+24			d			3			yes			3			De instructeur heeft de pilote geleerd de computer toe te_staan het vliegtuig te besturen.			De instructeur heeft de pilote iets geleerd.			De instructeur heeft de computer iets geleerd.			De instructeur heeft de computer het vliegtuig laten besturen.			De pilote heeft de instructeur iets geleerd.			

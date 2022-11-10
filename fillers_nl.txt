@@ -1,0 +1,103 @@
+1			F			1			Level 1			0			De bal werd door het raam gegooid.			De bal werd gegooid.			De doos werd gegooid.			De bal werd door de deur gegooid.			De bal werd opgetild.			
+
+2			F			1			Level 1			0			De vrouw is in Frankrijk aangekomen.			De vrouw is aangekomen.			De man is aangekomen.			De vrouw is in Duitsland aangekomen.			De vrouw is vertrokken.			
+
+3			F			1			Level 1			0			De vaas werd met bloemen gevuld. 			De vaas werd gevuld.			De fles werd gevuld.			De vaas werd met bladeren gevuld.			De vaas werd geleegd.			
+
+4			F			1			Level 1			0			Het koekje werd door de jongen gegeten.			Het koekje werd gegeten.			De cake werd gegeten.			Het koekje werd door het meisje gegeten.			Het koekje werd gemaakt.			
+
+5			F			1			Level 1			0			De bus werd door_de conducteur bestuurd.			De bus werd bestuurd.			De auto werd bestuurd.			De bus werd door de chauffeur bestuurd.			De bus werd gestopt.			
+
+6			F			1			Level 1			0			De doos werd door een dief gestolen.			De doos werd gestolen.			Het papier werd gestolen.			De doos werd door de politie gestolen			De doos werd gevonden.			
+
+7			F			1			Level 1			0			De paraplu werd door_de wind weggeblazen.			De paraplu werd weggeblazen.			Het overhemd werd weggeblazen.			De paraplu werd door de regen weggeblazen.			De paraplu werd opgeraapt.			
+
+8			F			1			Level 1			0			De regenbuien overspoelden het dorp.			Het dorp werd overspoeld.			De stad werd overspoeld.			De regenbuien hebben de stad overspoeld.			De regenbuien eindigden de droogte.			
+
+9			F			1			Level 1			0			De cake werd door de oude vrouw wonderschoon geglazuurd.			De cake werd geglazuurd.			De muffin werd geglazuurd.			De cake werd door de oude man geglazuurd.			De cake werd opgegeten.			
+
+10			F			1			Level 1			0			De oude koffer werd door de arbeiders opgetild.			De oude koffer werd opgetitld.			De tafel werd opgetitld.			De oude koffer werd door de buren opgetitld.			De oude koffer werd begraven.			
+
+11			F			1			Level 1			0			Het vaccin werd door de wetenschappers ontwikkeld.			Het vaccin werd ontwikkeld.			Het instrument werd ontwikkeld.			Het vaccin werd door de beginner ontwikkeld.			Het vaccin was kwijtgeraakt.			
+
+12			F			1			Level 1			0			De ballon werd door_de spies doorgeprikt.			De ballon werd doorgeprikt.			De band werd doorgeprikt.			De ballon werd door de hamer doorgeprikt.			De ballon werd opgeblazen.			
+
+13			F			2			Level 2			0			Dieven hebben de juwelen gestolen en in Luxemburg verkocht.			Dieven hebben de juwelen gestolen.			Dieven hebben de juwelen gebracht.			Dieven hebben de juwelen in New York verkocht.			De dieven werden door de juwelen gestolen.			
+
+14			F			2			Level 2			0			De man heeft cadeaus gekocht en aan de kinderen uitgedeeld. 			De man heeft de cadeaus aan de kinderen uitgedeeld.			De kinderen hebben de cadeaus gekocht.			De man heeft de kinderen gekocht.			De cadeaus hebben de man gekocht.			
+
+15			F			2			Level 2			0			De kok heeft het gerecht gekookt en aan_de vrouw geserveerd. 			De kok heeft het gerecht gekookt.			De vrouw heeft het gerecht gekookt.			De vrouw werd door de kok gekookt.			De kok is door het gerecht gekookt.			
+
+16			F			2			Level 2			0			Judith en Peter hebben een hotel geboekt en in New York geslapen. 			Judith en Peter sliepen in New York.			Judith en Peter hebben New York geboekt.			Judith en Peter sliepen in Denver.			Judith en Peter werden door het hotel geboekt.			
+
+17			F			2			Level 2			0			De vrouw heeft een loterij gewonnen en een groot feest gegeven.			De vrouw heeft een loterij gewonnen.			De vrouw heeft een feest gewonnen.			De vrouw heeft een klein feest gegeven.			De vrouw werd door de loterij gewonnen.			
+
+18			F			2			Level 2			0			De politieagent ging op patrouille en verjoeg de hooligans.			De politieagent heeft de hooligans verjaagd.			De hooligans gingen op patrouille.			De hooligans hebben de politieagent verjaagd.			De hooligans hebben met de politieagent gesproken.			
+
+19			F			2			Level 2			0			Het kind sliep de nacht door en droomde van Sinterklaas.			Het kind sliep de hele nacht door.			Sinterklaas sliep de hele nacht door.			Sinterklaas droomde van het kind.			Het kind is de hele nacht wakkergebleven.			
+
+20			F			2			Level 2			0			De professor verliet de klas en ging naar de kantine.			De professor ging naar de kantine.			De professor ging naar de klas.			De professor heeft de kantine verlaten.			De professor heeft het hotel verlaten.			
+
+21			F			2			Level 2			0			De jongen oefende zijn gitaarlessen en speelde bij_het universiteitsconcert.			De jongen oefende zijn gitaar.			De jongen heeft op het feest gespeeld.			De jongen heeft op het concert gedanst.			De jongen werd door de gitaar geoefend.			
+
+22			F			2			Level 2			0			Het meisje bekommerde zich om de puppy en bracht hem naar_de dierenarts.			Het meisje heeft de puppy naar de dierenarts gebracht.			De dierenarts zorgde voor de puppy.			De dierenarts zorgde voor het meisje.			De puppy zorgde voor het meisje.			
+
+23			F			2			Level 2			0			De astronaut gooide de apparatuur, die defect was, overboord.			De astronaut heeft de apparatuur overboord gegooid.			De apparatuur was niet defect.			De astronaut heeft de apparatuur gerepareerd.			De astronaut werd door de apparatuur overbood gegooid.			
+
+24			F			2			Level 2			0			Isabel bestelde het eten van een restaurant dat wereldberoemd is.			Het restaurant was beroemd.			Isabel was wereldberoemd.			Isabel heeft in een restaurant gegeten.			Isabel werd door het eten besteld.			
+
+25			F			3			Level 3			0			De krant meldt dat de uitnodiging om aan_de race deel_te_nemen door de wereldkampioen afgeslagen werd.			De krant meldt de uitnodiging.			De wereldkampioen nam aan de race deel.			De uitnodiging om aan de cursus deel te nemen werd gemeld.			Het tijdschrift meldt de uitnodiging.			
+
+26			F			3			Level 3			0			Linda vertelde dat de buurman van zijn fiets viel toen de politie toekeek.			De buurman viel van zijn fiets.			De politie zei dat de buurman viel.			De buurman keek naar de politie.			De politie viel van de fiets.			
+
+27			F			3			Level 3			0			De kinderen zien dat de giraf het voer eet, dat door de verzorger bijgevuld werd. 			De verzorger heeft het voedsel bijgevuld.			De kinderen hebben het voedsel bijgevuld			De verzorger heeft de giraf opgegeten.			De giraf heeft de kinderen opgegeten.			
+
+28			F			3			Level 3			0			De oude man droomde dat het vliegtuig in zijn achtertuin geland was, toen hij het gras maaide.			De oude man droomde.			De man droomde over een auto.			Het vliegtuig landde op de man.			De man was zijn auto aan het schoonmaken toen het vliegtuig landde.			
+
+29			F			3			Level 3			0			De conciërge dacht dat de leerlingen zich ondeugend gedroegen, omdat de directrice het gebouw verlaten had.			De leerlingen gedroegen zich ondeugend.			De conciërge had het gebouw verlaten.			De leerlingen dachten aan de conciërge.			De directrice gedroeg zich ontdeugend.			
+
+30			F			3			Level 3			0			De dokter dacht dat de patiënt het medicijn, dat niet voor inname bedoeld was, ingenomen had.			De dokter dacht dat het medicijn niet bedoeld was om ingenomen te worden.			De dokter heeft het medicijn ingenomen.			De patiënt dacht na over het medicijn.			De dokter dacht na over de kliniek.			
+
+31			F			3			Level 3			0			De president vroeg zich_af of de wereld zou vergaan wanneer zijn ambtstermijn eindigde.			De president vroeg zich af of er met de wereld iets zou gebeuren.			De ambtstermijn van de president is geëindigd.			De president vroeg zich af of er met zijn ambtstermijn iets zou gebeuren.			De wereld is voor het eind van de ambstermijn van de president vergaan. 			
+
+32			F			3			Level 3			0			De politieagente verduidelijkte dat de inbreker, die het huis geplunderd had, in de vroege ochtenduren gepakt was.			De inbreker heeft het huis geplunderd.			De politieagente heeft het huis geplunderd.			De inbreker verduidelijkte iets betreffende de diefstal.			De inbreker is in de avond gepakt.			
+
+33			F			3			Level 3			0			De timmerman bestelde het hout, waarvan gezegd wordt dat het 100 jaar nodig heeft om te groeien.			Het hout heeft 100 jaar nodig om te groeien.			De timmerman heeft de tafel besteld.			Het hout groeit snel.			Het hout werd door de timmerman verkocht.			
+
+34			F			3			Level 3			0			De partijvoorzitter instrueerde de werknemers harder te werken om de verkiezingen weer te winnen.			De partijvoorzitter heeft de werknemers geïnstrueerd.			De werknemers hebben de partijvoorzitter geïnstrueerd harder te werken.			De instructies waren om de verkiezingen te verliezen.			De partijvoorzitter vroeg de werknemers om de loterij te winnen.			
+
+35			F			3			Level 3			0			De auteur dacht dat de man, aan_wie hij vorige week voorgesteld was, een karakter uit zijn vroegere boek was.			De auteur was vorige week aan een man voorgesteld.			De man dacht aan de auteur.			De man was een karakter uit het recente boek van de auteur.			De man was gisteren aan de auteur voorgsteld.			
+
+36			F			3			Level 3			0			De DJ speelde de muziek, die niet werd verwacht door de menigte die op snellere nummers hoopte.			De menigte hoopte op snellere nummers van de DJ.			De menigte heeft de muziek gespeeld.			De DJ heeft snelle muziek gespeeld.			De menigte heeft langzame muziek verwacht.			
+
+37			F			4			Double embedded			0			De timmerman, die eergisteren de vakman, die op zaterdag de boer droeg, bezeerde, begeleidde de leerling in de tuin.			De timmerrman begeleidde de leerling.			De leerling begeleidde de timmerman.			De vakman bezeerde de timmerman.			De boer droeg de vakman.			
+
+38			F			4			Double embedded			0			De moeder, die vrijdag de dochter, die toen de zus vond, beangstigde, begroette de grootmoeder op de driewieler.			De moeder beangstigde de dochter.			De dochter beangstigde de moeder.			De oma begroette de moeder.			De zus vond de dochter.			
+
+39			F			4			Double embedded			0			De arbeider, die onlangs de huurder, die toen de voorman zocht, verwondde, ondervroeg de herder in_het kantoor.			De huurder zocht de voorman.			De voorrman zocht de huurder.			De huurder verwondde de arbeider.			De herder ondervroeg de arbeider.			
+
+40			F			4			Double embedded			0			De handelaar, die net de zakenman, die destijds de professor inhuurde, verwarde, irriteerde de investeerder in_de ochtend.			De handelaar irriteerde de investeerder.			De investeerder irriteerde de handelaar.			De zakenman verwarde de handelaar.			De professor huurde de zakenman in.			
+
+41			F			4			Double embedded			0			De schilder, die laatst de muzikant, die al zo_lang de vader miste, beschutte, kookte voor de kunstenaar in de keuken.			De schilder beschutte de muzikant.			De muzikant beschutte de schilder.			De kunstenaar kookte voor de schilder.			De vader miste de muzikant.			
+
+42			F			4			Double embedded			0			De saxofonist, die op zondag de trompettist, die altijd de dirigent meebracht, afleidde, bedankte de violist in een toespraak.			De trompettist bracht de dirigent mee.			De dirigent bracht de trompetist mee.			De trompetist leidde de saxofonist af.			De violist bedankte de saxofonist.			
+
+43			F			4			Double embedded			0			De apotheker, die op woensdag de opticien, die gisteren de vreemdeling zag, verontrustte, ondervroeg de klant aan de balie.			De apotheker ondervroeg de klant.			De klant ondervroeg de apotheker.			De opticien verontrustte de apotheker.			De vreemdeling zag de opticien.			
+
+44			F			4			Double embedded			0			De schoonmaker, die vanochtend de conciërge, die snel de dokter herkende, verwondde, verraste de patiënt in de gang.			De schoonmaker verwondde de conciërge.			De conciërge verwondde de schoonmaker.			De patiënt verraste de schoonmaker.			De dokter herkende de conciërge.			
+
+45			F			4			Double embedded			0			De danser, die gisteren de zanger, die laatst de toeschouwer bewonderde, bezeerde, beloonde de portier met een tientje.			De zanger bewonderde de toeschouwer.			De toeschouwer bewonderde de zanger.			De zanger bezeerde de danser.			De portier beloonde de danser.			
+
+46			F			4			Double embedded			0			De artiest, die vanmorgen de sporter, die soms de bewaker riep, irriteerde, instrueerde de nieuwslezer in de studio.			De artiest instrueerde de nieuwslezer.			De nieuwslezer instrueerde de artiest.			De sportman irriteerde de artiest.			De bewaker riep de sportman.			
+
+47			F			4			Double embedded			0			De klerk, die gisteren de ambtenaar, die soms de bezoeker vergat, hielp, irriteerde de buurman op_het stadhuis.			De klerk hielp de ambtenaar.			De ambtenaar hielp de klerk.			De buurman irriteerde de klerk.			De bezoeker vergat de ambtenaar.			
+
+48			F			4			Double embedded			0			De zoon, die laatst de vader, die vaak de leraar zag, stoorde, bezocht de grootvader in_het bejaardenhuis.			De vader zag de leraar.			De leraar zag de vader.			De vader stoorde de zoon.			De grootvader bezocht de zoon.			
+
+49			F			4			Double embedded			0			De conducteur, die vanmorgen de dirigent, die altijd de arbeider negeerde, sloeg, bekritiseerde de musicus op het festival.			De conducteur bekritiseerde de musicus.			De musicus bekritiseerde de conducteur.			De dirigent sloeg de conducteur.			De arbeider negeerde de dirigent.			
+
+50			F			4			Double embedded			0			De verdediging, die vanmiddag de aanklager, die eventjes de spion aankeek, verraste, overtuigde de rechter in de rechtbank.			De verdediging verraste de aanklager.			De aanklager verraste de verdediging.			De rechter overtuigde de verdediging.			De spion keek de aanklager aan.			
+
+51			F			4			Double embedded			0			De neef, die eergisteren de zus, die ooit de boer uitvoerig beschreef, gelukkig maakte, haatte de oom na de familieruzie.			De zus beschreef de boer.			De boer beschreef de zus.			De zus maakte de neef gelukkig.			De oom haatte de neef.			
+
+52			F			4			Double embedded			0			De schilder, die toentertijd de muzikant, die ooit een vriend sloeg, stoorde, bewonderde de dichter op het poëziefestival.			De schilder bewonderde de dichter.			De dichter bewonderde de schilder.			De muzikant stoorde de schilder.			De vriend sloeg de muzikant.			

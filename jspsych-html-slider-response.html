@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="jspsych-6/jspsych_1.js"></script>
+    <script src="jspsych-6/plugins/jspsych-call-function.js"></script>
+    <script src= "jspsych-6/plugins/plugin-html-slider-response.js"></script>
+    <script src= "jspsych-6/plugins/jspsych-html-button-response.js"></script>
+    <script src="jspsych-6/download.js"></script>
+    <link href="jspsych-6/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    <style>
+      img {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body></body>
+  <script>
+
+    var jsPsych = initJsPsych({
+      default_iti: 250,
+      on_finish: function() {
+        jsPsych.data.displayData();
+      }
+    });
+
+    var instructions = {
+      type: "html-button-response",
+      stimulus: "<p> Rechtliche Hinweise: Durch die Beantwortung der folgenden Fragen nehmen Sie an einer Studie teil, die von Wissenschaftler/inne/n des Department of Language Science an der Universität von Kalifornien, Irvine, durchgeführt wird. Wenn Sie Fragen zu dieser Studie haben, wenden Sie sich bitte an Richard Futrell (rfutrell@uci.edu). Sie müssen mindestens 18 Jahre alt sein, um teilnehmen zu können. Ihre Teilnahme an dieser Studie ist freiwillig. Sie können es ablehnen, einige oder alle der folgenden Fragen zu beantworten. Sie können die weitere Teilnahme jederzeit ohne nachteilige Folgen ablehnen, ohne dass Ihnen daraus Nachteile entstehen. Ihre Anonymität ist gewährleistet; die Forscher/innen, die Sie um Teilnahme bitten, erhalten keine persönlichen Daten von Ihnen. </p>",
+      choices: ['Weiter'],
+
+      post_trial_gap: 1000
+    };
+
+    var trial_1 = {
+      type: jsPsychHtmlSliderResponse,
+      stimulus: '<div style="margin: 50px auto; width: 100px; height: 100px; background-color: rgb(46, 26, 122);"></div>',
+      labels: ['Purple', 'Blue'],
+      slider_width: 500,
+      require_movement: true,
+      prompt: '<p>Is this color closer to purple or blue? Use the slider above.</p>'
+    };
+
+    var trial_2 = {
+      type: jsPsychHtmlSliderResponse,
+      stimulus: '<div style="margin: 50px auto; width: 100px; height: 100px; background-color: rgb(29, 23, 138)"></div>',
+      labels: ['Purple', 'Blue'],
+      slider_start: 10,
+      slider_width: 500,
+      prompt: '<p>Is this color closer to purple or blue? Use the slider above. (5s time limit; custom starting value).</p>',
+      trial_duration: 5000
+    };
+
+    var trial_3 = {
+      type: jsPsychHtmlSliderResponse,
+      stimulus: '<div style="margin: 50px auto; width: 100px; height: 100px; background-color: rgb(63, 17, 129)"></div>',
+      labels: ['Purple', 'Blue'],
+      prompt: '<p>Is this color closer to purple or blue? Use the slider above. (1s display).</p>',
+      slider_width: 500,
+      stimulus_duration: 1000
+    };
+
+    jsPsych.run([instructions,trial_1, trial_2, trial_3]);
+
+  </script>
+</html>

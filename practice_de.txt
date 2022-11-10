@@ -1,0 +1,1 @@
+1			P			1			Level 1			0			Der Ball wurde durch das Fenster geworfen.			Der Ball wurde geworfen.			Die Büchse wurde geworfen.			Der Ball wurde durch die Tür geworfen.			Der Ball wurde aufgehoben.			

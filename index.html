@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My experiment</title>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://proliferate.alps.science/static/js/proliferate.js" type="text/javascript"></script>
+    <script src="jspsych-6/jspsych_1.js"></script>
+    <script src="jspsych-6/plugins/jspsych-call-function.js"></script>
+    <script src= "jspsych-6/plugins/jspsych-html-keyboard-response.js"></script>
+    <script src= "jspsych-6/plugins/jspsych-html-button-response.js"></script>
+    <script src= "jspsych-6/plugins/jspsych-html-keyboard-response-ld.js"></script>
+    <script src= "jspsych-6/plugins/jspsych-survey-text.js"></script>
+    <script src= "jspsych-6/plugins/jspsych-survey-multi-choice.js"></script>
+    <script src="jspsych-6/plugins/jspsych-survey-multi-select.js"></script>
+    <script src= "jspsych-6/plugins/jspsych-html-slider-response.js"></script>
+    <script src="jspsych-6/download.js"></script>
+    <script src="specs_lexical_decision.js"></script>
+    <script src="lists_RSVP_German.js"></script>
+    <script src="lists_prestudy.js"></script>
+
+    <!--<script src="download.js"></script>-->
+    <link href="jspsych-6/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    <style>
+      img {
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body></body>
+  <script>
+      //var jsPsych = initJsPsych();
+
+      // capture info from Prolific
+      var subject_id = jsPsych.data.getURLVariable('PROLIFIC_PID');
+      var study_id = jsPsych.data.getURLVariable('STUDY_ID');
+      var session_id = jsPsych.data.getURLVariable('SESSION_ID');
+
+      jsPsych.data.addProperties({
+      subject_id: subject_id,
+      study_id: study_id,
+      session_id: session_id
+      });
+
+      var timeline = [];
+      var repeat_prac = false;
+      var Starten_time = Date.now();
+      /// participant id is decided
+      function formatted_date(){
+      	var result="";
+      	var d = new Date();
+      	result += d.getDate().toString()+(d.getMonth()+1).toString()+d.getFullYear().toString()+d.getHours().toString()+d.getMinutes().toString();
+      	return result;
+    	}
+
+      var participant_id = formatted_date();
+      var entry_number = 1
+      //prompt("Bitte geben Sie eine beliebige Zahl ein.");
+      var i=0,j=0;
+      var limit = number_of_items.reduce(function(a, b){
+                     return a + b;
+                 }, 0);
+
+
+    /* define instructions trial */
+    var instructions = {
+      type: "html-button-response",
+      stimulus: "<p> Rechtliche Hinweise: Durch die Beantwortung der folgenden Fragen nehmen Sie an einer Studie teil, die von Wissenschaftler/inne/n des Department of Language Science an der Universität von Kalifornien, Irvine, durchgeführt wird. Wenn Sie Fragen zu dieser Studie haben, wenden Sie sich bitte an Richard Futrell (rfutrell@uci.edu). Sie müssen mindestens 18 Jahre alt sein, um teilnehmen zu können. Ihre Teilnahme an dieser Studie ist freiwillig. Sie können die weitere Teilnahme jederzeit ohne nachteilige Folgen ablehnen, ohne dass Ihnen daraus Nachteile entstehen. Ihre Anonymität ist gewährleistet; die Forscher/innen, die Sie um Teilnahme bitten, erhalten keine persönlichen Daten von Ihnen. </p>",
+      choices: ['Weiter'],
+
+      post_trial_gap: 500
+    };
+    timeline.push(instructions);
+
+    var instructions2 = {
+      type: "html-button-response",
+      stimulus: "<p> Vielen Dank für Ihre Teilnahme an diesem Experiment. Ihnen werden mehrere Sätze präsentiert. Bewerten Sie für jeden Satz, wie schwer oder leicht es ist, den Sazt zu verstehen, und wählen Sie aus den gegebenen Alternativen die wahre Aussage aus. </p>",
+      choices: ['Weiter'],
+
+      post_trial_gap: 500
+    };
+    timeline.push(instructions2);
+
+    var instructions3 = {
+      type: "html-button-response",
+      stimulus: "<p> Zuerst sehen Sie ein Kreuz auf dem Bildschirm, das die Stelle anzeigt, an der der Satz erscheinen wird. Wenn Sie die Schaltfläche „Startenen“ drücken, erscheint das erste Wort. Dann erscheint automatisch der Rest des Satzes, Wort für Wort oder manchmal zwei Wörter auf einmal. Sie sehen also nicht den ganzen Satz auf einmal. Es ist nicht möglich, den Satz zurückzulesen, also achten Sie genau darauf und stellen Sie sicher, dass Sie die Bedeutung des Satzes verstehen. Nachdem Sie den Satz gelesen haben, werden Sie gefragt, ob der Satz leicht verständlich ist oder nicht. Ihre Antwort geben Sie mithilfe der auf dem Bildschirm angezeigten Bildlaufleiste ein. Ist der Satz sehr leicht verständlich, schieben Sie den Regler auf „sehr leicht“, ist der Satz sehr schwer verständlich, schieben Sie den Regler auf „sehr schwer“. Wenn der Satz ziemlich einfach, aber nicht sehr einfach ist, bewegen Sie den Schieberegler in Richtung „eher leicht“. </p>",
+      choices: ['Weiter'],
+
+      post_trial_gap: 500
+    };
+    timeline.push(instructions3);
+
+    var instructions5 = {
+      type: "html-button-response",
+      stimulus: "<p> Nachdem Sie Ihre Bewertung abgegeben haben, klicken Sie auf „Weiter“. Auf dem nächsten Bildschirm sehen Sie vier alternative Aussagen zum vorhergehenden Satz. Sie müssen die richtige Alternative wählen. Nachdem Sie eine Alternative gewählt haben, gelangen Sie zum nächsten Satz. </p>",
+      choices: ['Weiter'],
+
+      post_trial_gap: 500
+    };
+    timeline.push(instructions5);
+
+    var fixation_practice = {
+      type: "html-button-response",
+      stimulus: '<div style="font-size:60px;"><br> <br> <br> <br> + <br> <br> <br> </div> Klicken Sie auf „Weiter“, damit der Satz angezeigt wird <br>',
+      choices: ['Weiter'],
+      post_trial_gap: 400,
+      data : {stimulus: "fixation", roi: 0, correct_choice: 0, Particpant_id:participant_id, Entry_Number: entry_number,  Experiment_ID: '0', Item_ID : '0', Condition_ID : 'N', List_ID : '0'}
+    }
+
+    var fixation = {
+      type: "html-button-response",
+      stimulus: '<div style="font-size:60px;"> <br> <br> <br> + <br> <br> <br> </div>',
+      choices: ['Starten'],
+      post_trial_gap: 400,
+      data : {stimulus: "fixation", roi: 0, correct_choice: 0, Particpant_id:participant_id, Entry_Number: entry_number,  Experiment_ID: '0', Item_ID : '0', Condition_ID : 'N', List_ID : '0'}
+    }
+
+    function shuffle(listo,choice){
+        switch(choice) {
+            case 0:
+                return listo;
+                break;
+            case 1:
+                return jsPsych.randomization.shuffle(listo);
+                break;
+            case 2:
+                var flag1=0;
+                var flag2=0;
+                var key=2;
+                if(ns==3){
+                    key=3;
+                }
+                while(flag1==0){
+                   flag2=0;
+                   listo = jsPsych.randomization.shuffle(listo);
+                   for(i=0;i<limit+number_of_fillers-1;i++){
+                       if(parseInt(listo[i][key])== parseInt(listo[i+1][key])){
+                           flag2=1;
+                           break;
+                       }
+                   }
+                   if(flag2==0){
+                       flag=1;
+                       return listo;
+                   }
+                }
+            default:
+                return listo;
+        }
+    }
+    var training = {
+      type: "html-button-response",
+      stimulus: "<p> Das Experiment beginnt mit einem Übungstest, damit Sie das Experiment verstehen. </p>",
+      choices: ['Weiter'],
+      post_trial_gap: 1000
+    };
+    timeline.push(training);
+
+    var plist=shuffle(praclist,choiceofe)
+    for(j=0;j<(number_of_pracitem);j++){
+        timeline.push(fixation);
+
+        var temp_prac = plist[j][5];
+        var prac_timelist = plist[j][12];
+        var num_pwords = plist[j][11];
+        for(var k=0;k<num_pwords;k++){
+          var newstr = temp_prac[k];
+          newstr = newstr.replace(/_/,' ');
+          var screentime = prac_timelist[k];
+          var blanktime = 390;
+          var timeout = screentime + blanktime;
+          var trial_p3_1 = {
+              type: "html-keyboard-response",
+              stimulus: '<p style="font-size:10px' + font_size + 'px; color:  ' + color + ' ;">' + newstr + '</p>',
+              choices: "NO_KEYS",
+              stimulus_duration: screentime,
+              trial_duration: timeout,
+              data : {stimulus: newstr, roi: k+1, correct_choice: 0, Particpant_id:participant_id, Entry_Number: entry_number,  Experiment_ID: plist[j][2], Item_ID : plist[j][0], Condition_ID : plist[j][1], List_ID : plist[j][4]}
+          }
+          timeline.push(trial_p3_1);
+        }
+
+        var trial_p3_2 = {
+            type: 'html-slider-response',
+            stimulus: '<p style="font-size:10px' + font_size + 'px; color:  ' + color + ' ;">' + "Wie schwer war es Ihnen, den Satz, den Sie gerade gelesen haben, zu verstehen?" + '<br> <br> <br>' + '</p>',
+            require_movement: true,
+            labels: ['sehr leicht', 'eher leicht', '.','eher schwer','sehr schwer'],
+            button_label: 'Weiter',
+            slider_width : 500,
+            min: 1,
+            max: 9,
+            start: 5,
+            step: 0.001,
+            data : {stimulus: temp_prac, roi: 0, correct_choice: 0, Particpant_id:participant_id, Entry_Number: entry_number,  Experiment_ID: plist[j][2], Item_ID : plist[j][0], Condition_ID : plist[j][1], List_ID : plist[j][4]}
+        }
+        var prac_right = plist[j][6]
+        var prac_false1 = plist[j][7]
+        var prac_false2 = plist[j][8]
+        var prac_false3 = plist[j][9]
+        var shuffled_prac_alter = shuffle([prac_right,prac_false1,prac_false2,prac_false3],1)
+        var corr_choice = 0
+        for(c=0;c<4;c++){
+          if(shuffled_prac_alter[c]==prac_right){
+            corr_choice = c
+          }
+        }
+        var question_practice = {
+            type: "html-button-response",
+            stimulus: '<p style="font-size:10px' + font_size + 'px; color:  ' + color + ' ;">' + 'Welche der vier Aussagen ist richtig? <br> ' + '</p>',
+            choices: shuffled_prac_alter,
+            margin_vertical: '15px',
+            margin_horizontal: '300px',
+            post_trial_gap: 500,
+            data : {stimulus:shuffled_prac_alter, roi: 0, correct_choice : corr_choice, Particpant_id:participant_id, Entry_Number: entry_number,  Experiment_ID: plist[j][2], Item_ID : plist[j][0], Condition_ID : plist[j][1], List_ID : plist[j][4]}
+        }
+
+        var prevdat = jsPsych.data.get().filter({Condition_ID: 'P',trial_type: "html-button-response"}).values()
+        var feed="Falsche Antwort!";
+        if(prevdat.response==corr_choice){
+           feed="Richtige Antwort!"
+        } else {
+           feed="Falsche Antwort!"
+        }
+
+        var feedback = {
+          type: "html-button-response",
+          stimulus: "<p>" + feed + '<br> <br> <br>' + "</p>",
+          choices: ['Weiter'],
+          post_trial_gap: 500
+        }
+
+        var prac_sent = temp_prac.toString();
+        prac_sent = prac_sent.replaceAll(",", ' ');
+        prac_sent = prac_sent.replace(/_/, ' ');
+        var feedback_correct = {
+          type: "html-button-response",
+          stimulus: "<p>" + 'De zin: '+ prac_sent + '<br> <br> <br>' + 'Welche der vier Aussagen ist richtig? <br> <br> ' + shuffled_prac_alter[0] + '<br>' +shuffled_prac_alter[1] + '<br>'+shuffled_prac_alter[2] + '<br>'+shuffled_prac_alter[3] + '<br> <br> <br>'+ 'Het juiste antwoord is: '+prac_right+ "</p>",
+          choices: ['Weiter'],
+          post_trial_gap: 500
+        }
+        //timeline.push(fixation);
+        timeline.push(trial_p3_2);
+        timeline.push(question_practice);
+        //timeline.push(feedback);
+        timeline.push(feedback_correct);
+    }
+
+    var instructions4 = {
+      type: "html-button-response",
+      stimulus: "<p> Als Erinnerung an Ihre Aufgabe <br> <br> <br> Der Schieberegler registriert Ihre Intuition über die Schwierigkeit des Satzes. Je nach Schwierigkeitsgrad des Satzes können Sie den Schieberegler beliebig auf der Skala platzieren. Wenn Sie zum Beispiel denken, dass ein Satz sehr schwierig ist, sollten Sie den Knopf sehr nahe an „sehr schwer“ schieben, und wenn Sie denken, dass ein Satz schwierig, aber nicht zu schwierig ist, sollten Sie den Knopf auf „eher schwer“ schieben, aber nicht zu schwer, nah an „sehr schwer“. <br> <br> Nachdem Sie mit dem Scrollbalken geantwortet haben und die Schaltfläche „Weiter“ gedrückt haben, sehen Sie einen Bildschirm mit vier alternativen Aussagen. Sie müssen die richtige Alternative zu dem Satz auswählen, den Sie gerade auf dem vorherigen Bildschirm gelesen haben. </p>",
+      choices: ['Weiter'],
+
+      post_trial_gap: 500
+    };
+    timeline.push(instructions4);
+
+    var endtraining = {
+      type: "html-button-response",
+      stimulus: "<p> Die Übungstests enden hier. Jetzt beginnen wir mit dem Hauptexperiment. </p>",
+      choices: ['Weiter'],
+      post_trial_gap: 1000
+    };
+    timeline.push(endtraining);
+
+        var ln = 0
+        var list = shuffle(lists[ln],choiceofe)
+        for(j=0;j<(limit+number_of_fillers);j++){
+            timeline.push(fixation);
+
+            var templist = list[j][5];
+            var timelist = list[j][12];
+            var num_words = list[j][11];
+            for(var k=0;k<num_words;k++){
+              var newstr = templist[k];
+              newstr = newstr.replace(/_/,' ');
+              var screentime = timelist[k];
+              var blanktime = 390;
+              var timeout = screentime + blanktime;
+              var trial_3_1 = {
+                  type: "html-keyboard-response",
+                  stimulus: '<p style="font-size:10px' + font_size + 'px; color:  ' + color + ' ;">' + newstr + '</p>',
+                  choices: "NO_KEYS",
+                  stimulus_duration: screentime,
+                  trial_duration: timeout,
+                  data : {stimulus: newstr, roi: k+1, correct_choice: 0, Particpant_id:participant_id, Entry_Number: entry_number,  Experiment_ID: list[j][2], Item_ID : list[j][0], Condition_ID : list[j][1], List_ID : ln}
+              }
+              timeline.push(trial_3_1);
+            }
+
+            var trial_3_2 = {
+                type: 'html-slider-response',
+                stimulus: '<p style="font-size:10px' + font_size + 'px; color:  ' + color + ' ;">' + "Wie schwer war es Ihnen, den Satz, den Sie gerade gelesen haben, zu verstehen?" + '<br> <br> <br>' + '</p>',
+                require_movement: true,
+                labels: ['sehr leicht', 'eher leicht', '.','eher schwer','sehr schwer'],
+                button_label: 'Weiter',
+                slider_width : 500,
+                min: 1,
+                max: 9,
+                start: 5,
+                step: 0.001,
+                data : {stimulus: templist, roi: 0, correct_choice: 0, Particpant_id:participant_id, Entry_Number: entry_number,  Experiment_ID: list[j][2], Item_ID : list[j][0], Condition_ID : list[j][1], List_ID : ln}
+            }
+
+            var temp_right = list[j][6]
+            var temp_false1 = list[j][7]
+            var temp_false2 = list[j][8]
+            var temp_false3 = list[j][9]
+            var shuffled_alternatives = shuffle([temp_right,temp_false1,temp_false2,temp_false3],1)
+            var corr_choice = 0
+            for(c=0;c<4;c++){
+              if(shuffled_alternatives[c]==temp_right){
+                corr_choice = c
+              }
+            }
+            var question_trial = {
+                type: "html-button-response",
+                stimulus: '<p style="font-size:10px' + font_size + 'px; color:  ' + color + ' ;">' + 'Welche der vier Aussagen ist richtig? <br>' + '</p>',
+                choices: shuffled_alternatives,
+                margin_vertical: '15px',
+                margin_horizontal: '300px',
+                data : {stimulus:shuffled_alternatives, roi: 0, correct_choice: corr_choice, Particpant_id:participant_id, Entry_Number: entry_number,  Experiment_ID: list[j][2], Item_ID : list[j][0], Condition_ID : list[j][1], List_ID : list[j][4]},
+                post_trial_gap: 500
+            }
+
+            //timeline.push(fixation);
+            timeline.push(trial_3_2);
+            timeline.push(question_trial);
+        }
+
+
+      var instructions_survey = {
+        type: "html-button-response",
+        stimulus: "<p> Das Experiment endet hier! Bevor Sie gehen, möchten wir Ihnen einige Fragen stellen. </p>",
+        choices: ['Weiter'],
+
+        post_trial_gap: 500
+      };
+      timeline.push(instructions_survey);
+
+      var demo1 = {
+        type: 'survey-text',
+        questions: [
+          {prompt: "Wie alt sind Sie?", name: 'age',required:true},
+          {prompt: "In welcher Region sind Sie aufgewachsen?", name: 'birthlocation',required:true},
+          {prompt: "In welcher Region wohnen Sie jetzt?", name: 'currentlocation',required:true}
+        ],
+        required: true,
+        button_label: 'Weiter',
+        post_trial_gap: 500
+      };
+      timeline.push(demo1);
+
+      var demo2 = {
+        type: 'survey-multi-choice',
+        questions: [
+          {prompt: "Was ist Ihr höchster Bildungsgrad?", name: 'education', options: ["Sekundarstufe I", "Sekundarstufe II", "Bachelor", "Master", "Promotion","Andere"], required: true}
+        ],
+        required: true,
+        button_label: 'Weiter',
+        post_trial_gap: 500
+      };
+      timeline.push(demo2);
+
+      var demo3 = {
+        type: 'survey-multi-select',
+        questions: [
+          {prompt: "Welche Sprachen sprechen Sie neben Deutsch fließend?", options: ["Niederländisch","Schweizerdeutsch","Englisch","Französisch","Andere"], horizontal: true, required: true, name: 'dutch'}
+        ],
+        required: true,
+        button_label: 'Weiter',
+        post_trial_gap: 500
+      };
+      timeline.push(demo3);
+
+      var endmain = {
+        type: "html-keyboard-response",
+        stimulus: "<p> Vielen Dank für die Teilnahme. </p>",
+        trial_duration : 1000,
+      };
+      timeline.push(endmain);
+
+
+    function saveData(name, data){
+      var xhr = new XMLHttpRequest();
+      xhr.open('POST', 'write_data.php');
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.send(JSON.stringify({filename: name, filedata: data}));
+      xhr.addEventListener("load", success);
+      xhr.addEventListener("error", failure);
+      download(data,name+".csv","file/csv");
+      function success(evt) {
+          document.body.innerHTML = '<p style="margin:auto"> Vielen Dank für die Teilnahme. </p>';
+      }
+      function failure(evt) {
+         document.body.innerHTML ='<p style="margin:auto"> Vielen Dank für die Teilnahme. </p>';
+      }
+    }
+    /* Starten the experiment */
+    jsPsych.init({
+      timeline: timeline,
+        on_finish: function(){
+            //saveData("ed"+ "_" + entry_number + "_" + participant_id + "_" + (Date.now()-Starten_time).toString(), jsPsych.data.get().filter([{trial_type: 'html-keyboard-response-ld'},{trial_type: 'survey-text'},{trial_type: 'survey-multi-choice'}]).json());
+            //proliferate.submit(jsPsych.data.get().filter([{trial_type: 'html-keyboard-response-ld'},{trial_type: 'survey-text'},{trial_type: 'survey-multi-choice'}]).json());
+            //proliferate.submit(jsPsych.data.get().filter({trial_type: 'html-keyboard-response-ld'}).csv());
+            //proliferate.submit(jsPsych.data.get().filter({trial_type: 'survey-text'}).json());
+            //proliferate.submit(jsPsych.data.get().filter({trial_type: 'survey-multi-choice'}).json());
+            proliferate.submit({"trials": jsPsych.data.get().filter([{trial_type: 'html-keyboard-response'},{trial_type: 'survey-text'},{trial_type: 'survey-multi-choice'},{trial_type: 'html-button-response',Entry_Number:1},{trial_type: 'html-slider-response',Entry_Number:1}]).values()});
+      }
+    });
+  </script>
+</html>
