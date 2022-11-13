@@ -83,7 +83,7 @@
 
     var instructions3 = {
       type: "html-button-response",
-      stimulus: "<p> Zuerst sehen Sie ein Kreuz auf dem Bildschirm, das die Stelle anzeigt, an der der Satz erscheinen wird. Wenn Sie die Schaltfläche „Startenen“ drücken, erscheint das erste Wort. Dann erscheint automatisch der Rest des Satzes, Wort für Wort oder manchmal zwei Wörter auf einmal. Sie sehen also nicht den ganzen Satz auf einmal. Es ist nicht möglich, den Satz zurückzulesen, also achten Sie genau darauf und stellen Sie sicher, dass Sie die Bedeutung des Satzes verstehen. Nachdem Sie den Satz gelesen haben, werden Sie gefragt, ob der Satz leicht verständlich ist oder nicht. Ihre Antwort geben Sie mithilfe der auf dem Bildschirm angezeigten Bildlaufleiste ein. Ist der Satz sehr leicht verständlich, schieben Sie den Regler auf „sehr leicht“, ist der Satz sehr schwer verständlich, schieben Sie den Regler auf „sehr schwer“. Wenn der Satz ziemlich einfach, aber nicht sehr einfach ist, bewegen Sie den Schieberegler in Richtung „eher leicht“. </p>",
+      stimulus: "<p> Zuerst sehen Sie ein Kreuz auf dem Bildschirm, das die Stelle anzeigt, an der der Satz erscheinen wird. Wenn Sie die Schaltfläche „Starten“ drücken, erscheint das erste Wort. Dann erscheint automatisch der Rest des Satzes, Wort für Wort oder manchmal zwei Wörter auf einmal. Sie sehen also nicht den ganzen Satz auf einmal. Es ist nicht möglich, den Satz zurückzulesen, also achten Sie genau darauf und stellen Sie sicher, dass Sie die Bedeutung des Satzes verstehen. Nachdem Sie den Satz gelesen haben, werden Sie gefragt, ob der Satz leicht verständlich ist oder nicht. Ihre Antwort geben Sie mithilfe der auf dem Bildschirm angezeigten Bildlaufleiste ein. Ist der Satz sehr leicht verständlich, schieben Sie den Regler auf „sehr leicht“, ist der Satz sehr schwer verständlich, schieben Sie den Regler auf „sehr schwer“. Wenn der Satz ziemlich einfach, aber nicht sehr einfach ist, bewegen Sie den Schieberegler in Richtung „eher leicht“. </p>",
       choices: ['Weiter'],
 
       post_trial_gap: 500
@@ -234,7 +234,7 @@
         prac_sent = prac_sent.replace(/_/, ' ');
         var feedback_correct = {
           type: "html-button-response",
-          stimulus: "<p>" + 'De zin: '+ prac_sent + '<br> <br> <br>' + 'Welche der vier Aussagen ist richtig? <br> <br> ' + shuffled_prac_alter[0] + '<br>' +shuffled_prac_alter[1] + '<br>'+shuffled_prac_alter[2] + '<br>'+shuffled_prac_alter[3] + '<br> <br> <br>'+ 'Het juiste antwoord is: '+prac_right+ "</p>",
+          stimulus: "<p>" + 'Der Satz: '+temp_prac + '<br> <br> <br>' + 'Welche der vier Aussagen ist richtig? <br> <br> ' + shuffled_prac_alter[0] + '<br>' +shuffled_prac_alter[1] + '<br>'+shuffled_prac_alter[2] + '<br>'+shuffled_prac_alter[3] + '<br> <br> <br>'+ 'Die richtige Antwort ist: '+prac_right+ "</p>",
           choices: ['Weiter'],
           post_trial_gap: 500
         }
@@ -327,6 +327,49 @@
             timeline.push(question_trial);
         }
 
+        var prestudy_instructions1 = {
+          type: "html-button-response",
+          stimulus: "<p> Wir sind fast fertig! In den nächsten Versuchen müssen Sie zwischen zwei Sätzen wählen, die auf dem Bildschirm angezeigt werden. Sie sollen den Satz wählen, den Sie akzeptabler finden, d. h. den Satz, der für Sie natürlicher klingt. </p>",
+          choices: ['Weiter'],
+          post_trial_gap: 500
+        };
+        timeline.push(prestudy_instructions1);
+
+        var prestudy_instructions2 = {
+          type: "html-button-response",
+          stimulus: "<p> Sehen Sie zwei Sätze auf dem Bildschirm, einen oben auf dem Bildschirm und den anderen unten. Wenn Sie der Meinung sind, dass der Satz oben akzeptabler ist, klicken Sie auf den oberen Satz. Wenn der Satz unten akzeptabler ist, klicken Sie auf den unteren Satz. Wenn Sie nicht sicher sind, welcher Satz besser ist, klicken Sie auf „Weiß nicht / Gleich gut“. <br> Es gibt keine zeitliche Begrenzung. Lesen Sie die Sätze sorgfältig durch und treffen Sie dann Ihre Entscheidung. </p>",
+          choices: ['Weiter'],
+          post_trial_gap: 500
+        };
+        timeline.push(prestudy_instructions2);
+
+        var prestudy_instructions3 = {
+          type: "html-button-response",
+          stimulus: "<p> Lasst uns beginnen! </p>",
+          choices: ['Weiter'],
+          post_trial_gap: 500
+        };
+        timeline.push(prestudy_instructions3);
+
+        var list_pres = shuffle(lists_pre[0],1)
+        for(j=0;j<(8);j++){
+            var templist = shuffle([list_pres[j][0],list_pres[j][1]],1)
+            var condnew = "part-inf"
+            if(templist[0]==list_pres[j][1]){
+              condnew="inf-part"
+            }
+            var trial_prestudy = {
+                type: "html-button-response",
+                stimulus: '<p style="font-size:10px' + font_size + 'px; color:  ' + color + ' ;">' + 'Welcher der beiden folgenden Sätze ist akzeptabler? <br>' + '</p>',
+                choices: [templist[0],"Weiß nicht / Gleich gut",templist[1]],
+                margin_vertical: '30px',
+                margin_horizontal: '300px',
+                data : {stimulus: templist[0]+' '+templist[1], roi: 0, correct_choice: 0, Particpant_id:participant_id, Entry_Number: entry_number,  Experiment_ID: list_pres[j][2], Item_ID : list_pres[j][3], List_ID : condnew},
+                post_trial_gap: 500
+            }
+            timeline.push(trial_prestudy);
+        }
+
 
       var instructions_survey = {
         type: "html-button-response",
@@ -364,9 +407,9 @@
       var demo3 = {
         type: 'survey-multi-select',
         questions: [
-          {prompt: "Welche Sprachen sprechen Sie neben Deutsch fließend?", options: ["Niederländisch","Schweizerdeutsch","Englisch","Französisch","Andere"], horizontal: true, required: true, name: 'dutch'}
+          {prompt: "Welche Sprachen sprechen Sie neben Deutsch fließend?", options: ["Niederländisch","Schweizerdeutsch","Englisch","Französisch","Andere"], horizontal: true, required: false, name: 'german'}
         ],
-        required: true,
+        required: false,
         button_label: 'Weiter',
         post_trial_gap: 500
       };

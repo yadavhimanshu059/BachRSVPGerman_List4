@@ -1,5 +1,5 @@
-var number_of_items = [1];
-var number_of_fillers = 2;
+var number_of_items = [24];
+var number_of_fillers = 52;
 var number_of_pracitem = 1;
 var number_of_non_words = 0;
 var number_of_lists = 4;
