@@ -2,7 +2,7 @@
 
 2			F			1			Level 1			0			De vrouw is in Frankrijk aangekomen.			De vrouw is aangekomen.			De man is aangekomen.			De vrouw is in Duitsland aangekomen.			De vrouw is vertrokken.			
 
-3			F			1			Level 1			0			De vaas werd met bloemen gevuld. 			De vaas werd gevuld.			De fles werd gevuld.			De vaas werd met bladeren gevuld.			De vaas werd geleegd.			
+3			F			1			Level 1			0			De vaas werd met bloemen gevuld.			De vaas werd gevuld.			De fles werd gevuld.			De vaas werd met bladeren gevuld.			De vaas werd geleegd.			
 
 4			F			1			Level 1			0			Het koekje werd door de jongen gegeten.			Het koekje werd gegeten.			De cake werd gegeten.			Het koekje werd door het meisje gegeten.			Het koekje werd gemaakt.			
 
@@ -24,11 +24,11 @@
 
 13			F			2			Level 2			0			Dieven hebben de juwelen gestolen en in Luxemburg verkocht.			Dieven hebben de juwelen gestolen.			Dieven hebben de juwelen gebracht.			Dieven hebben de juwelen in New York verkocht.			De dieven werden door de juwelen gestolen.			
 
-14			F			2			Level 2			0			De man heeft cadeaus gekocht en aan de kinderen uitgedeeld. 			De man heeft de cadeaus aan de kinderen uitgedeeld.			De kinderen hebben de cadeaus gekocht.			De man heeft de kinderen gekocht.			De cadeaus hebben de man gekocht.			
+14			F			2			Level 2			0			De man heeft cadeaus gekocht en aan de kinderen uitgedeeld.			De man heeft de cadeaus aan de kinderen uitgedeeld.			De kinderen hebben de cadeaus gekocht.			De man heeft de kinderen gekocht.			De cadeaus hebben de man gekocht.			
 
-15			F			2			Level 2			0			De kok heeft het gerecht gekookt en aan_de vrouw geserveerd. 			De kok heeft het gerecht gekookt.			De vrouw heeft het gerecht gekookt.			De vrouw werd door de kok gekookt.			De kok is door het gerecht gekookt.			
+15			F			2			Level 2			0			De kok heeft het gerecht gekookt en aan_de vrouw geserveerd.			De kok heeft het gerecht gekookt.			De vrouw heeft het gerecht gekookt.			De vrouw werd door de kok gekookt.			De kok is door het gerecht gekookt.			
 
-16			F			2			Level 2			0			Judith en Peter hebben een hotel geboekt en in New York geslapen. 			Judith en Peter sliepen in New York.			Judith en Peter hebben New York geboekt.			Judith en Peter sliepen in Denver.			Judith en Peter werden door het hotel geboekt.			
+16			F			2			Level 2			0			Judith en Peter hebben een hotel geboekt en in New York geslapen.			Judith en Peter sliepen in New York.			Judith en Peter hebben New York geboekt.			Judith en Peter sliepen in Denver.			Judith en Peter werden door het hotel geboekt.			
 
 17			F			2			Level 2			0			De vrouw heeft een loterij gewonnen en een groot feest gegeven.			De vrouw heeft een loterij gewonnen.			De vrouw heeft een feest gewonnen.			De vrouw heeft een klein feest gegeven.			De vrouw werd door de loterij gewonnen.			
 
@@ -50,7 +50,7 @@
 
 26			F			3			Level 3			0			Linda vertelde dat de buurman van zijn fiets viel toen de politie toekeek.			De buurman viel van zijn fiets.			De politie zei dat de buurman viel.			De buurman keek naar de politie.			De politie viel van de fiets.			
 
-27			F			3			Level 3			0			De kinderen zien dat de giraf het voer eet, dat door de verzorger bijgevuld werd. 			De verzorger heeft het voedsel bijgevuld.			De kinderen hebben het voedsel bijgevuld			De verzorger heeft de giraf opgegeten.			De giraf heeft de kinderen opgegeten.			
+27			F			3			Level 3			0			De kinderen zien dat de giraf het voer eet, dat door de verzorger bijgevuld werd.			De verzorger heeft het voedsel bijgevuld.			De kinderen hebben het voedsel bijgevuld			De verzorger heeft de giraf opgegeten.			De giraf heeft de kinderen opgegeten.			
 
 28			F			3			Level 3			0			De oude man droomde dat het vliegtuig in zijn achtertuin geland was, toen hij het gras maaide.			De oude man droomde.			De man droomde over een auto.			Het vliegtuig landde op de man.			De man was zijn auto aan het schoonmaken toen het vliegtuig landde.			
 
@@ -58,7 +58,7 @@
 
 30			F			3			Level 3			0			De dokter dacht dat de patiënt het medicijn, dat niet voor inname bedoeld was, ingenomen had.			De dokter dacht dat het medicijn niet bedoeld was om ingenomen te worden.			De dokter heeft het medicijn ingenomen.			De patiënt dacht na over het medicijn.			De dokter dacht na over de kliniek.			
 
-31			F			3			Level 3			0			De president vroeg zich_af of de wereld zou vergaan wanneer zijn ambtstermijn eindigde.			De president vroeg zich af of er met de wereld iets zou gebeuren.			De ambtstermijn van de president is geëindigd.			De president vroeg zich af of er met zijn ambtstermijn iets zou gebeuren.			De wereld is voor het eind van de ambstermijn van de president vergaan. 			
+31			F			3			Level 3			0			De president vroeg zich_af of de wereld zou vergaan wanneer zijn ambtstermijn eindigde.			De president vroeg zich af of er met de wereld iets zou gebeuren.			De ambtstermijn van de president is geëindigd.			De president vroeg zich af of er met zijn ambtstermijn iets zou gebeuren.			De wereld is voor het eind van de ambstermijn van de president vergaan.			
 
 32			F			3			Level 3			0			De politieagente verduidelijkte dat de inbreker, die het huis geplunderd had, in de vroege ochtenduren gepakt was.			De inbreker heeft het huis geplunderd.			De politieagente heeft het huis geplunderd.			De inbreker verduidelijkte iets betreffende de diefstal.			De inbreker is in de avond gepakt.			
 

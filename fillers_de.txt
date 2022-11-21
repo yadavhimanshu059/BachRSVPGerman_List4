@@ -30,17 +30,17 @@
 
 16			F			2			Level 2			0			Judith und Peter haben ein Hotel gebucht und in New York geschlafen.			Judith und Peter schliefen in New York.			Judith und Peter haben New York gebucht.			Judith und Peter schliefen in Denver.			Judith und Peter wurden vom Hotel gebucht.			
 
-17			F			2			Level 2			0			Die Frau hat in_einem Lotto gewonnen und eine große Party geschmissen. 			Die Frau hat in einem Lotto gewonnen.			Die Frau hat eine Party gewonnen.			Die Frau hat eine kleine Party geschmissen.			Die Frau wurde von der Lotterie gewonnen.			
+17			F			2			Level 2			0			Die Frau hat in_einem Lotto gewonnen und eine große Party geschmissen.			Die Frau hat in einem Lotto gewonnen.			Die Frau hat eine Party gewonnen.			Die Frau hat eine kleine Party geschmissen.			Die Frau wurde von der Lotterie gewonnen.			
 
-18			F			2			Level 2			0			Der Polizist ging auf Patrouille und verjagte die Hooligans. 			Der Polizist hat die Hooligans verjagt.			Die Hooligans gingen auf Patrouille .			Die Hooligans haben den Polizisten verjagt.			Die Hooligans haben mit dem Polizisten gesprochen.			
+18			F			2			Level 2			0			Der Polizist ging auf Patrouille und verjagte die Hooligans.			Der Polizist hat die Hooligans verjagt.			Die Hooligans gingen auf Patrouille .			Die Hooligans haben den Polizisten verjagt.			Die Hooligans haben mit dem Polizisten gesprochen.			
 
-19			F			2			Level 2			0			Das Kind schlief die Nacht durch und träumte vom Weihnachtsmann. 			Das Kind schlief durch die Nacht.			Der Weihnachtsmann schlief durch die Nacht.			Der Weihnachtsmann träumte vom Kind.			Das Kind ist die ganze Nacht wachgeblieben.			
+19			F			2			Level 2			0			Das Kind schlief die Nacht durch und träumte vom Weihnachtsmann.			Das Kind schlief durch die Nacht.			Der Weihnachtsmann schlief durch die Nacht.			Der Weihnachtsmann träumte vom Kind.			Das Kind ist die ganze Nacht wachgeblieben.			
 
 20			F			2			Level 2			0			Der Professor verließ die Klasse und ging in die Kantine.			Der Professor ging in die Kantine.			Der Professor ging in die Klasse.			Der Professor hat die Kantine verlassen.			Der Professor hat das Hotel verlassen.			
 
-21			F			2			Level 2			0			Der Junge übte seinen Gitarrenunterricht und spielte beim Universitätskonzert. 			Der Junge übte die Gitarre.			Der Junge hat auf der Party gespielt.			Der Junge hat auf dem Konzert getanzt.			Der Junge wurde von der Gitarre geübt.			
+21			F			2			Level 2			0			Der Junge übte seinen Gitarrenunterricht und spielte beim Universitätskonzert.			Der Junge übte die Gitarre.			Der Junge hat auf der Party gespielt.			Der Junge hat auf dem Konzert getanzt.			Der Junge wurde von der Gitarre geübt.			
 
-22			F			2			Level 2			0			Das Mädchen kümmerte sich um den Welpen und brachte ihn zum Tierarzt. 			Das Mädchen hat den Welpen zum Tierarzt gebracht.			Der Tierarzt kümmerte sich um den Welpen.			Der Tierarzt kümmerte sich um das Mädchen.			Der Welpe kümmerte sich um das Mädchen.			
+22			F			2			Level 2			0			Das Mädchen kümmerte sich um den Welpen und brachte ihn zum Tierarzt.			Das Mädchen hat den Welpen zum Tierarzt gebracht.			Der Tierarzt kümmerte sich um den Welpen.			Der Tierarzt kümmerte sich um das Mädchen.			Der Welpe kümmerte sich um das Mädchen.			
 
 23			F			2			Level 2			0			Der Astronaut warf das Gerät, das defekt war, über_Bord.			Der Astronaut hat das Gerät über Bord geworfen.			Das Gerät war nicht defekt.			Der Astronaut hat das Gerät repariert.			Der Astronaut wurde vom Gerät über Bord geworfen.			
 
