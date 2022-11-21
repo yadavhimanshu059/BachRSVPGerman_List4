@@ -234,7 +234,7 @@
         prac_sent = prac_sent.replace(/_/, ' ');
         var feedback_correct = {
           type: "html-button-response",
-          stimulus: "<p>" + 'Der Satz: '+temp_prac + '<br> <br> <br>' + 'Welche der vier Aussagen ist richtig? <br> <br> ' + shuffled_prac_alter[0] + '<br>' +shuffled_prac_alter[1] + '<br>'+shuffled_prac_alter[2] + '<br>'+shuffled_prac_alter[3] + '<br> <br> <br>'+ 'Die richtige Antwort ist: '+prac_right+ "</p>",
+          stimulus: "<p>" + 'Der Satz: '+ prac_sent + '<br> <br> <br>' + 'Welche der vier Aussagen ist richtig? <br> <br> ' + shuffled_prac_alter[0] + '<br>' +shuffled_prac_alter[1] + '<br>'+shuffled_prac_alter[2] + '<br>'+shuffled_prac_alter[3] + '<br> <br> <br>'+ 'Die richtige Antwort ist: '+prac_right+ "</p>",
           choices: ['Weiter'],
           post_trial_gap: 500
         }
