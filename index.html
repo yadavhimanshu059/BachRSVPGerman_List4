@@ -447,7 +447,7 @@
             //proliferate.submit(jsPsych.data.get().filter({trial_type: 'html-keyboard-response-ld'}).csv());
             //proliferate.submit(jsPsych.data.get().filter({trial_type: 'survey-text'}).json());
             //proliferate.submit(jsPsych.data.get().filter({trial_type: 'survey-multi-choice'}).json());
-            proliferate.submit({"trials": jsPsych.data.get().filter([{trial_type: 'html-keyboard-response'},{trial_type: 'survey-text'},{trial_type: 'survey-multi-choice'},{trial_type: 'html-button-response',Entry_Number:1},{trial_type: 'html-slider-response',Entry_Number:1}]).values()});
+            proliferate.submit({"trials": jsPsych.data.get().filter([{trial_type: 'html-keyboard-response'},{trial_type: 'survey-text'},{trial_type: 'survey-multi-choice'},{trial_type: 'survey-multi-select'},{trial_type: 'html-button-response',Entry_Number:1},{trial_type: 'html-slider-response',Entry_Number:1}]).values()});
       }
     });
   </script>
