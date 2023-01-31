@@ -161,7 +161,7 @@ jsPsych.plugins['survey-multi-select'] = (function() {
         // save data
         var trial_data = {
           "rt": response_time,
-          "responses": JSON.stringify(question_data)
+          "response": JSON.stringify(question_data)
         };
         display_element.innerHTML = '';
 
